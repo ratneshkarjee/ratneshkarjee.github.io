@@ -28,10 +28,8 @@
 
         .profile-img {
             width: 100%;
-            max-width: 1172px;
+            max-width: 900px; /* Adjusted size */
             height: auto;
-            max-height: 1184px;
-            object-fit: contain;
             margin: 0 auto;
         }
 
@@ -42,8 +40,8 @@
         }
 
         .about-img {
-            width: 150px;
-            height: 150px;
+            width: 120px; /* Adjusted size */
+            height: 120px; /* Adjusted size */
             border-radius: 50%;
             border: 5px solid #333;
             margin-bottom: 20px;
@@ -56,9 +54,31 @@
 
         .card {
             margin: 10px 0;
+            border: none;
+            border-radius: 10px;
         }
 
-        /* Sticky Footer */
+        .card-img-top {
+            height: 180px; /* Adjusted size */
+            object-fit: cover;
+        }
+
+        /* Publication Section */
+        #publications {
+            padding: 60px 0;
+        }
+
+        /* Collaborators Section */
+        #collaborators {
+            padding: 60px 0;
+        }
+
+        /* Stories & Blogs Section */
+        #blogs {
+            padding: 60px 0;
+        }
+
+        /* Footer */
         footer {
             background-color: #f8f9fa;
             padding: 10px;
@@ -162,14 +182,16 @@
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="text-center mt-5">
-        <p>&copy; 2024 Ratnesh Karjee. All rights reserved.</p>
-    </footer>
-
-    <!-- Bootstrap and jQuery Scripts -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
+    <!-- Publication Section -->
+    <section id="publications">
+        <h2 class="display-4 text-center">Publications</h2>
+        <div class="container">
+            <ul>
+                <li><strong>2024:</strong> Title of Recent Publication - <a href="link-to-publication">Link</a></li>
+                <li><strong>2023:</strong> Title of Another Publication - <a href="link-to-publication">Link</a></li>
+                <li><strong>2022:</strong> Title of Earlier Publication - <a href="link-to-publication">Link</a></li>
+                <li><strong>2021:</strong> Title of Previous Publication - <a href="link-to-publication">Link</a></li>
+                <li><strong>2020:</strong> Title of Older Publication - <a href="link-to-publication">Link</a></li>
+                <li><strong>2019:</strong> Title of the First Publication - <a href="link-to-publication">Link</a></li>
+            </ul>
+       
