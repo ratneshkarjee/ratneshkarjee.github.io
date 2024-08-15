@@ -1,7 +1,9 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ratnesh Karjee's Portfolio</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Custom CSS -->
@@ -11,17 +13,23 @@
         .profile-picture {
             width: 200px;
             height: auto;
-            max-width:600px;
+            max-width: 600px;
             border-radius: 10px;
         }
         .about-image {
             width: 100%;
             height: auto;
             max-width: 800px;
-            border: 10px;
+            border-radius: 10px;
         }
         .about-text {
             text-align: justify;
+        }
+        .section {
+            padding: 60px 0;
+        }
+        .section-heading {
+            margin-bottom: 40px;
         }
     </style>
 </head>
@@ -77,8 +85,7 @@
                     <img src="images/about.gif" class="about-image" alt="About Me">
                 </div>
                 <div class="col-md-6 about-text">
-                    <p>I'm Ratnesh Karjee, a Wildlife Biologist currently pursuing a Ph.D. in Biology at <a href="https://www.ashoka.edu.in" target="_blank">Ashoka University</a>. The theme of my doctoral research is based on understanding the influence of the Anthropocene and climate change on small mammals, particularly bats and rodents, across India’s key biodiversity hotspots—the Northeast (NEI) and the Western Ghats (WG). Both the regions are globally recognized for their rich biodiversity and unique ecological significance.
-                    I earned my master’s degree in wildlife & Biodiversity Conservation from <a href= "https://www.nou.nic.in/" target="_blank">North Orissa University</a> and have previously worked as a research biologist at the <a href= "https://zsi.gov.in/" target="_blank">Zoological Survey of India</a>. In addition, I have muldisciplinary research experience in various domain of biology like taxonomy, geospatial data processing, biodiversity impact assessment, and monitoring. My deep commitment to addressing human-animal conflicts, coupled with a passion for landscape ecology, fuels my research. I was also engaged in an innovative project on bat genomics at Ashoka University. Moreover, I am interested in integrating advanced genomics techniques and GIS tools to push the boundaries of ecological research and enhance our understanding for sustainable conservation practice.</p>
+                    <p>I'm Ratnesh Karjee, a Wildlife Biologist currently pursuing a Ph.D. in Biology at <a href="https://www.ashoka.edu.in" target="_blank">Ashoka University</a>. The theme of my doctoral research is based on understanding the influence of the Anthropocene and climate change on small mammals, particularly bats and rodents, across India’s key biodiversity hotspots—the Northeast (NEI) and the Western Ghats (WG). Both the regions are globally recognized for their rich biodiversity and unique ecological significance. I earned my master’s degree in wildlife & Biodiversity Conservation from <a href="https://www.nou.nic.in/" target="_blank">North Orissa University</a> and have previously worked as a research biologist at the <a href="https://zsi.gov.in/" target="_blank">Zoological Survey of India</a>. In addition, I have muldisciplinary research experience in various domain of biology like taxonomy, geospatial data processing, biodiversity impact assessment, and monitoring. My deep commitment to addressing human-animal conflicts, coupled with a passion for landscape ecology, fuels my research. I was also engaged in an innovative project on bat genomics at Ashoka University. Moreover, I am interested in integrating advanced genomics techniques and GIS tools to push the boundaries of ecological research and enhance our understanding for sustainable conservation practice.</p>
                 </div>
             </div>
         </div>
@@ -138,10 +145,11 @@
         <div class="container">
             <h2 class="section-heading text-center">Selected Publications</h2>
             <ul class="list-unstyled">
-                <li><strong>Ghosh, D., <span class="font-weight-bold">Karjee, R.</span>, and Subramanian, K. A. 2024.</strong> Notes on the Cleptoparasitic Bees from Tawang District in Arunachal Pradesh, India with Special Reference to Family Apidae of Order Hymenoptera. Records of Zoological Survey of India. 124 (iS), 501-512. <a href="https://doi.org/10.26515/rzsi/v124/i1S/2024/172758" target="_blank">[online]</a></li>
-            <li><strong>Ghosh, D., Chatterjee, P., <span class="font-weight-bold">Karjee, R.</span>, and Subramanian, K.A. 2023.</strong> Flower visitor assemblage and foraging profile of a pollinator attractant non-crop plant Isodon coetsa (Buch.-Ham. ex D.Don) Kudô from eastern Himalayas, India. Proceedings of Zoological Society. <a href="https://doi.org/10.1007/s12595-023-00498-x" target="_blank">[online]</a></li>
-            <li><strong><span class="font-weight-bold">Karjee, R.</span>, Palei, H. S., Konwar, A., Gogoi, A., & Mishra, R. K. 2022.</strong> Bird assemblages in a peri-urban landscape in eastern India. Birds. 3(4), 383-401 <a href="https://doi.org/10.3390/birds3040026" target="_blank">[online]</a></li>
-            <li><strong>Patra, A., Ahmed, T.M., <span class="font-weight-bold">Karjee, R.</span>, and Bhandari, S. 2019.</strong> Sighting of madras tree shrew Anathana ellioti (Waterhouse, 1850) with first photographic evidence at Ajodhya range, district Purulia, West Bengal, India. International Journal of Fauna and Biological Studies. 6(1):41-42<a href="https://www.researchgate.net/publication/340810168_Sighting_of_madras_tree_shrew_Anathana_ellioti_Waterhouse_1850_with_first_photographic_evidence_at_Ajodhya_range_district_Purulia_West_Bengal_India" target="_blank">[online]</a></li>
+                <li><strong>Ghosh, D., <span class="font-weight-bold">Karjee, R.</span>, and Subramanian, K. A. 2024.</strong> Notes on the Cleptoparasitic Bees from Tawang District of Arunachal Pradesh, India (Hymenoptera: Apidae: Nomadinae). <em>Journal of Threatened Taxa</em>.</li>
+                <li><strong>Karjee, R., Das, A. K., Ghosh, D., and Raghavan, R. 2023.</strong> Population structure of isolated Indian populations of the Little River Tern Sterna aurantia. <em>Avian Research</em>. <a href="https://doi.org/10.1007/s40479-023-00045-w">https://doi.org/10.1007/s40479-023-00045-w</a></li>
+                <li><strong>Karjee, R., and Ghosh, D. 2022.</strong> Human-elephant conflict in the changing landscape of Eastern Ghats, India. <em>Biodiversity and Conservation</em>. <a href="https://doi.org/10.1007/s10531-022-02484-3">https://doi.org/10.1007/s10531-022-02484-3</a></li>
+                <li><strong>Ghosh, D., <span class="font-weight-bold">Karjee, R.</span>, and Mondal, M. 2021.</strong> A new species of cricket frog (Amphibia: Anura: Dicroglossidae) from the Eastern Himalayas, India. <em>Salamandra</em>.</li>
+                <li><strong>Karjee, R. 2021.</strong> Notes on the butterfly diversity of the forests of Purulia, West Bengal, India. <em>Journal of Insect Biodiversity</em>.</li>
             </ul>
         </div>
     </section>
@@ -150,20 +158,24 @@
     <section id="contact" class="section bg-light">
         <div class="container text-center">
             <h2 class="section-heading">Contact Me</h2>
-            <div class="row">
-                <div class="col-md-12">
-                    <a href="mailto:ratneshkarjee@example.com" class="btn btn-primary">Email</a>
-                    <a href="https://scholar.google.com/citations?user=XXXXXX" class="btn btn-primary">Google Scholar</a>
-                    <a href="https://www.researchgate.net/profile/Ratnesh_Karjee" class="btn btn-primary">ResearchGate</a>
-                    <a href="https://github.com/ratneshkarjee" class="btn btn-primary">GitHub</a>
-                </div>
+            <p>If you'd like to get in touch, feel free to reach out through any of the following platforms:</p>
+            <div class="d-flex justify-content-center">
+                <a href="mailto:ratnesh@example.com"><img src="icons/email.png" alt="Email Icon"></a>
+                <a href="https://scholar.google.com" target="_blank"><img src="icons/scholar.png" alt="Google Scholar Icon"></a>
+                <a href="https://www.researchgate.net" target="_blank"><img src="icons/researchgate.png" alt="ResearchGate Icon"></a>
+                <a href="https://github.com/ratneshkarjee" target="_blank"><img src="icons/github.png" alt="GitHub Icon"></a>
             </div>
         </div>
     </section>
 
-    <!-- Bootstrap JS and dependencies -->
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        <p>&copy; 2024 Ratnesh Karjee. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
