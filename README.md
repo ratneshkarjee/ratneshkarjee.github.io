@@ -97,7 +97,6 @@
                         <div class="card-body">
                             <h5 class="card-title">Remote Sensing & GIS</h5>
                             <p class="card-text">I am proficient in geospatial modelling (including Species Distribution Modelling). Apart from this, I use to teach and provide technical assistance to graduate students, interns, and professionals in RS and GIS. In addition, I can handle various software like QGIS, ArcGIS, GeoDa, Google Earth Engine, and Diva-GIS.</p>
-                            <a href="#" class="btn btn-primary">Link to course or bootcamp</a>
                         </div>
                     </div>
                 </div>
