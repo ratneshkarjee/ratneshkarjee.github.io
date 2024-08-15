@@ -132,7 +132,7 @@
     <!-- About Section -->
     <section id="about">
         <h2 class="display-4">About</h2>
-        <img src="images/about.jpg" alt="About Me" class="about-img">
+        <img src="images/about.gif" alt="About Me" class="about-img">
         <p>Hello! I'm Ratnesh Karjee. I am a Wildlife Biologist currently pursuing a Ph.D. from <a href="https://www.ashoka.edu.in/" target="_blank">Ashoka University</a>. Before joining Ashoka's PhD program, I completed my master’s degree in Wildlife & Biodiversity Conservation at North Orissa University. In 2019, I was hired as a research biologist by the Zoological Survey of India. In addition, I have several years of multidisciplinary research experience in various Indian landscapes, as well as competence in Taxonomy, Geospatial data processing, Biodiversity Impact Assessment, and Biodiversity Monitoring. Aside from that, I am passionate about human-animal conflict, landscape ecology, and the effects of climate change on wildlife. I was working at Ashoka University as a Junior Research Fellow on the project “Whole genome sequencing and comparative genomics to study the evolution, genetic diversity, and immunology of bats from the Indian subcontinent.</p>
         <p>My research interest lies in integrated approach of modern tools like genomic and GIS to answer various ecological question. Apart from the academic and research pursuits, I love to play football, volleyball, cricket etc. Also, I find pleasure in photography, hiking, drawing and painting.</p>
     </section>
