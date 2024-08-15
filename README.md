@@ -93,7 +93,7 @@
                 <!-- Skill Card 1 -->
                 <div class="col-md-3">
                     <div class="card">
-                        <img src="images/remote.jpg" class="card-img-top" alt="RS & GIS Icon">
+                        <img src="remote.jpg" class="card-img-top" alt="RS & GIS Icon">
                         <div class="card-body">
                             <h5 class="card-title">Remote Sensing & GIS</h5>
                             <p class="card-text">I am proficient in geospatial modelling (including Species Distribution Modelling). Apart from this, I use to teach and provide technical assistance to graduate students, interns, and professionals in RS and GIS. In addition, I can handle various software like QGIS, ArcGIS, GeoDa, Google Earth Engine, and Diva-GIS.</p>
@@ -104,7 +104,7 @@
                 <!-- Skill Card 2 -->
                 <div class="col-md-3">
                     <div class="card">
-                        <img src="images/genomics.jpg" class="card-img-top" alt="Molecular Biology Icon">
+                        <img src="genomics.jpg" class="card-img-top" alt="Molecular Biology Icon">
                         <div class="card-body">
                             <h5 class="card-title">Molecular & Ecological Data Analysis</h5>
                             <p class="card-text">I have expertise in analyzing ecological and genomic data using various software such as R, PopArt, DnaSP, and MEGA.</p>
