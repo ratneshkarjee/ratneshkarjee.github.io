@@ -134,8 +134,18 @@
         </div>
     </section>
 
-    <!-- Footer with Contact Me Section -->
-    <footer class="bg-dark text-light text-center py-4">
+   <!-- Footer with Contact Me Section -->
+    <footer class="bg-dark text-light text-center py-4" id="contact">
         <div class="container">
-            <h2 class="section-heading">Contact Me</h2>
-            <div
+            <h4>Contact Me</h4>
+            <p>Email: <a href="mailto:ratnesh.karjee@example.com">ratnesh.karjee@example.com</a></p>
+            <p><a href="https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID" target="_blank">Google Scholar</a> | <a href="https://www.researchgate.net/profile/Ratnesh_Karjee" target="_blank">ResearchGate</a> | <a href="https://github.com/Ratnesh-Karjee" target="_blank">GitHub</a></p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
