@@ -209,8 +209,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
 
     <!-- Publication Section -->
     <section id="publications">
@@ -248,7 +246,7 @@
 
     <!-- Footer -->
     <footer class="text-center">
-        <p>Contact me via <a href="mailto:ratnesh@example.com">Email</a>, <a href="https://scholar.google.com/citations?user=XXXXXX" target="_blank">Google Scholar</a>, <a href="https://www.researchgate.net/profile/Ratnesh_Karjee" target="_blank">ResearchGate</a>, and <a href="https://github.com/ratneshkarjee" target="_blank">GitHub</a>.</p>
+        <p>Contact me via <a href="mailto:ratneshkarjee@yahoo.com">Email</a>, <a href="https://scholar.google.com/citations?user=HtWRd9gAAAAJ&hl=en" target="_blank">Google Scholar</a>, <a href="https://www.researchgate.net/profile/Ratnesh_Karjee" target="_blank">ResearchGate</a>, and <a href="https://github.com/ratneshkarjee" target="_blank">GitHub</a>.</p>
         <a href="images/cv_ratnesh_template.pdf" class="btn btn-primary" download>Download CV</a>
     </footer>
 
