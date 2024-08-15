@@ -6,6 +6,12 @@
     <title>Ratnesh Karjee Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
         /* Sticky Navigation Bar */
         .navbar {
             background: linear-gradient(to right, #0033cc, #000000);
@@ -21,41 +27,42 @@
             color: #cccccc !important;
         }
 
+        /* Sections */
+        section {
+            padding: 60px 0;
+        }
+
         /* Home Section */
         #home {
-            min-height: 100vh; /* Full viewport height */
-            padding: 80px 0; /* Increased padding for better appearance */
+            min-height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
             text-align: center;
-            background: #f0f0f0; /* Light background color for contrast */
+            background: #f0f0f0;
         }
 
         .profile-img {
             width: 100%;
-            max-width: 500px; /* Adjusted size */
+            max-width: 500px;
             height: auto;
             margin: 0 auto;
         }
 
         /* About Section */
         #about {
-            padding: 60px 0;
-            text-align: center;
+            background: #f0f0f0;
         }
 
         .about-img {
-            width: 120px; /* Adjusted size */
-            height: 120px; /* Adjusted size */
-            border-radius: 50%;
-            border: 5px solid #333;
-            margin-bottom: 20px;
+            width: 100%;
+            max-width: 100%;
+            height: auto;
         }
 
         /* Skill & Expertise Section */
         #skills {
-            padding: 60px 0;
+            background: #ffffff;
         }
 
         .card {
@@ -65,13 +72,13 @@
         }
 
         .card-img-top {
-            height: 180px; /* Adjusted size */
+            height: 180px;
             object-fit: cover;
         }
 
         /* Publication Section */
         #publications {
-            padding: 60px 0;
+            background: #ffffff;
         }
 
         .publication-container {
@@ -98,16 +105,6 @@
             margin-bottom: 10px;
         }
 
-        /* Collaborators Section */
-        #collaborators {
-            padding: 60px 0;
-        }
-
-        /* Stories & Blogs Section */
-        #blogs {
-            padding: 60px 0;
-        }
-
         /* Footer */
         footer {
             background-color: #f8f9fa;
@@ -124,24 +121,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#home">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#skills">Skill & Expertise</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#publications">Publication</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#collaborators">Collaborators</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#blogs">Stories & Blogs</a>
-                </li>
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skill & Expertise</a></li>
+                <li class="nav-item"><a class="nav-link" href="#publications">Publication</a></li>
+                <li class="nav-item"><a class="nav-link" href="#collaborators">Collaborators</a></li>
+                <li class="nav-item"><a class="nav-link" href="#blogs">Stories & Blogs</a></li>
             </ul>
         </div>
     </nav>
@@ -162,32 +147,20 @@
     </section>
 
     <!-- About Section -->
-<section id="about">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-6 order-md-2">
-                <img src="images/about.gif" alt="About Me" class="about-img">
-            </div>
-            <div class="col-md-6 order-md-1">
-                <h2 class="display-4">About</h2>
-                <p>Hello! I'm Ratnesh Karjee. I am a Wildlife Biologist currently pursuing a Ph.D. from <a href="https://www.ashoka.edu.in/" target="_blank">Ashoka University</a>. Before joining Ashoka's PhD program, I completed my master’s degree in Wildlife & Biodiversity Conservation at North Orissa University. In 2019, I was hired as a research biologist by the Zoological Survey of India. In addition, I have several years of multidisciplinary research experience in various Indian landscapes, as well as competence in Taxonomy, Geospatial data processing, Biodiversity Impact Assessment, and Biodiversity Monitoring. Aside from that, I am passionate about human-animal conflict, landscape ecology, and the effects of climate change on wildlife. I was working at Ashoka University as a Junior Research Fellow on the project “Whole genome sequencing and comparative genomics to study the evolution, genetic diversity, and immunology of bats from the Indian subcontinent.</p>
-                <p>My research interest lies in integrated approach of modern tools like genomic and GIS to answer various ecological question. Apart from the academic and research pursuits, I love to play football, volleyball, cricket etc. Also, I find pleasure in photography, hiking, drawing and painting.</p>
+    <section id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 class="display-4">About</h2>
+                    <p>Hello! I'm Ratnesh Karjee. I am a Wildlife Biologist currently pursuing a Ph.D. from <a href="https://www.ashoka.edu.in/" target="_blank">Ashoka University</a>. Before joining Ashoka's PhD program, I completed my master’s degree in Wildlife & Biodiversity Conservation at North Orissa University. In 2019, I was hired as a research biologist by the Zoological Survey of India. In addition, I have several years of multidisciplinary research experience in various Indian landscapes, as well as competence in Taxonomy, Geospatial data processing, Biodiversity Impact Assessment, and Biodiversity Monitoring. Aside from that, I am passionate about human-animal conflict, landscape ecology, and the effects of climate change on wildlife. I was working at Ashoka University as a Junior Research Fellow on the project “Whole genome sequencing and comparative genomics to study the evolution, genetic diversity, and immunology of bats from the Indian subcontinent.</p>
+                    <p>My research interest lies in integrated approach of modern tools like genomic and GIS to answer various ecological question. Apart from the academic and research pursuits, I love to play football, volleyball, cricket etc. Also, I find pleasure in photography, hiking, drawing and painting.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/about.gif" alt="About Me" class="about-img">
+                </div>
             </div>
         </div>
-    </div>
-</section>
-/* About Section */
-#about {
-    padding: 60px 0;
-    background: #f0f0f0; /* Light background color for contrast */
-}
-
-.about-img {
-    width: 100%;
-    max-width: 100%; /* Maintain image dimensions without exceeding container */
-    height: auto;
-    margin: 0 auto;
-}
+    </section>
 
     <!-- Skill & Expertise Section -->
     <section id="skills">
@@ -233,7 +206,6 @@
             </div>
         </div>
     </section>
-
     <!-- Publication Section -->
     <section id="publications">
         <h2 class="display-4 text-center">Publications</h2>
