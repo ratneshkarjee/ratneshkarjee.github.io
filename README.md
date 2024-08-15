@@ -59,7 +59,7 @@
         <div class="container text-center">
             <div class="row align-items-center">
                 <div class="col-md-6">
-                    <img src="images/profile_picture.jpg" class="profile-picture" alt="Profile Picture">
+                    <img src="images/profile-rmbg.png" class="profile-picture" alt="Profile Picture">
                 </div>
                 <div class="col-md-6 text-left">
                     <h1>Welcome to My Scientific Portfolio</h1>
