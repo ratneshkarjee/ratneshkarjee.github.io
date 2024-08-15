@@ -1,13 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <Ratnesh Karjee>
+    <Ratnesh Karjee-  >
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Custom styles for the portfolio */
+        .profile-picture {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+        }
+        .about-image {
+            width: 100%;
+            height: auto;
+            max-width: 600px;
+            border: 5px solid #ddd;
+        }
+        .about-text {
+            text-align: justify;
+        }
+    </style>
 </head>
 <body>
     <!-- Navigation Bar -->
@@ -40,10 +57,11 @@
     <!-- Home Section -->
     <section id="home" class="section">
         <div class="container text-center">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-md-6">
-                    <img src="images/profile-rmbg.png" class="img-fluid" alt="Rectangular Image">
+                    <img src="images/profile_picture.jpg" class="profile-picture" alt="Profile Picture">
                 </div>
+                <div class="col-md-6 text-left">
                     <h1>Welcome to My Portfolio</h1>
                     <p>Hi, I'm Ratnesh Karjee, a Wildlife Biologist and Ph.D. candidate at <a href="https://www.ashoka.edu.in" target="_blank">Ashoka University</a>. Welcome to my portfolio where you can explore my research, skills, and publications.</p>
                 </div>
@@ -53,14 +71,14 @@
 
     <!-- About Me Section -->
     <section id="about" class="section bg-light">
-        <div class="container text-center">
-            <h2 class="section-heading">About Me</h2>
+        <div class="container">
+            <h2 class="section-heading text-center">About Me</h2>
             <div class="row">
-                <div class="col-md-4">
-                    <img src="images/about.gif" class="img-fluid rounded-circle" alt="About Me">
+                <div class="col-md-6">
+                    <img src="images/about.gif" class="about-image" alt="About Me">
                 </div>
-                <div class="col-md-8">
-                    <p>I'm Ratnesh Karjee, a Wildlife Biologist currently pursuing a Ph.D. in Biology at <a href="https://www.ashoka.edu.in" target="_blank">Ashoka University</a>. I completed my master's degree in Wildlife & Biodiversity Conservation at <a href="https://www.nou.nic.in/" target="_blank">North Orissa University</a>. and worked as a research biologist at the <a href="https://zsi.gov.in/" target="_blank">Zoological Survey of India</a>. In addition, I have several years of multidisciplinary research experience in various Indian landscapes, as well as competence in Taxonomy, Geospatial data processing, Biodiversity Impact Assessment, and Biodiversity Monitoring. Aside from that, I am passionate about human-animal conflict, landscape ecology, and the effects of climate change on wildlife. I was working at Ashoka University as a Junior Research Fellow on the project “Whole genome sequencing and comparative genomics to study the evolution, genetic diversity, and immunology of bats from the Indian subcontinent. Moreover, my interest lies in integrated approach of modern tools like genomic and GIS to address various fundamental question of ecology. Apart from the academic and research pursuits, I love to paly football, vollyball, cricket etc. Also, he finds pleasure in photography, drawing and painting.</p>
+                <div class="col-md-6 about-text">
+                    <p>I'm Ratnesh Karjee, a Wildlife Biologist currently pursuing a Ph.D. in Biology at <a href="https://www.ashoka.edu.in" target="_blank">Ashoka University</a>. I completed my master's degree in Wildlife & Biodiversity Conservation at North Orissa University and worked as a research biologist at the Zoological Survey of India. My multidisciplinary research experience spans various Indian landscapes, with expertise in Taxonomy, Geospatial data processing, Biodiversity Impact Assessment, and Biodiversity Monitoring. I am passionate about human-animal conflict, landscape ecology, and climate change impacts on wildlife. Currently, I'm also involved in a project on bat genomics at Ashoka University, integrating modern tools like genomics and GIS for ecological research.</p>
                 </div>
             </div>
         </div>
@@ -124,13 +142,10 @@
         <div class="container">
             <h2 class="section-heading text-center">Selected Publications</h2>
             <ul class="list-unstyled">
-                <li>Ghosh, D., <strong>Karjee, R., and Subramanian, K. A. 2024.</strong> Notes on the Cleptoparasitic Bees from Tawang District in Arunachal Pradesh, India with Special Reference to Family Apidae of Order Hymenoptera. Records of Zoological Survey of India.124 (iS), 501-512. <a href="https://doi.org/10.26515/rzsi/v124/i1S/2024/172758" target="_blank">doi:10.26515/rzsi/v124/i1S/2024/172758</a></li>
-                <li>Ghosh, D., Chatterjee, P., <strong>Karjee, R., and Subramanian, K.A. 2023.</strong> Flower visitor assemblage and foraging profile of a pollinator attractant non-crop plant Isodon coetsa (Buch.-Ham. ex D.Don) Kudô from eastern Himalayas, India. Proceedings of Zoological Society. <a href="https://doi.org/10.1007/s12595-023-00498-x" target="_blank">https://doi.org/10.1007/s12595-023-00498-x</a></li>
-                <li><strong>Karjee, R., Palei, H. S., Konwar, A., Gogoi, A., & Mishra, R. K. 2022.</strong> Bird assemblages in a peri-urban landscape in eastern India. Birds. 3(4), 383-401 <a href="https://doi.org/10.3390/birds3040026" target="_blank">https://doi.org/10.3390/birds3040026</a></li>
-                <li><strong>Patra, A., Ahmed, T.M., Karjee, R., and Bhandari, S. 2019.</strong> Sighting of madras tree shrew Anathana ellioti (Waterhouse, 1850) with first photographic evidence at Ajodhya range, district Purulia, West Bengal, India. International Journal of Fauna and Biological Studies. 6(1):41-42</li>
-            </ul>
-        </div>
-    </section>
+                <li><strong>Ghosh, D., <span class="font-weight-bold">Karjee, R.</span>, and Subramanian, K. A. 2024.</strong> Notes on the Cleptoparasitic Bees from Tawang District in Arunachal Pradesh, India with Special Reference to Family Apidae of Order Hymenoptera. Records of Zoological Survey of India.124 (iS), 501-512. <a href="https://doi.org/10.26515/rzsi/v124/i1S/2024/172758" target="_blank">doi:10.26515/rzsi/v124/i1S/2024/172758</a></li>
+                <li><strong>Ghosh, D., Chatterjee, P., <span class="font-weight-bold">Karjee, R.</span>, and Subramanian, K.A. 2023.</strong> Flower visitor assemblage and foraging profile of a pollinator attractant non-crop plant Isodon coetsa (Buch.-Ham. ex D.Don) Kudô from eastern Himalayas, India. Proceedings of Zoological Society. <a href="https://doi.org/10.1007/s12595-023-00498-x" target="_blank">https://doi.org/10.1007/s12595-023-00498-x</a></li>
+                <li><strong><span class="font-weight-bold">Karjee, R.</span>, Palei, H. S., Konwar, A., Gogoi, A., & Mishra, R. K. 2022.</strong> Bird assemblages in a peri-urban landscape in eastern India. Birds. 3(4), 383-401 <a href="https://doi.org/10.3390/birds3040026" target="_blank">https://doi.org/10.3390/birds3040026</a
+
 
    <!-- Footer with Contact Me Section -->
     <footer class="bg-dark text-light text-center py-4" id="contact">
