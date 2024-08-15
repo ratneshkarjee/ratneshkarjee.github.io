@@ -170,7 +170,7 @@
             <div class="row">
                 <div class="col-md-3">
                     <div class="card">
-                        <img src="images/1.jpg" class="card-img-top" alt="Conservation Genomics">
+                        <img src="images/congeno.jpg" class="card-img-top" alt="Conservation Genomics">
                         <div class="card-body">
                             <h5 class="card-title">Conservation Genomics</h5>
                             <p class="card-text">Description of Conservation Genomics and related skills.</p>
@@ -179,7 +179,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="card">
-                        <img src="images/2.jpg" class="card-img-top" alt="Landscape Ecology">
+                        <img src="images/landscape.jpeg" class="card-img-top" alt="Landscape Ecology">
                         <div class="card-body">
                             <h5 class="card-title">Landscape Ecology</h5>
                             <p class="card-text">Description of Landscape Ecology and related skills.</p>
@@ -188,7 +188,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="card">
-                        <img src="images/3.jpg" class="card-img-top" alt="Human-Wildlife Conflict">
+                        <img src="images/human-wildlife.jpg" class="card-img-top" alt="Human-Wildlife Conflict">
                         <div class="card-body">
                             <h5 class="card-title">Human-Wildlife Conflict</h5>
                             <p class="card-text">Description of Human-Wildlife Conflict and related skills.</p>
@@ -197,7 +197,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="card">
-                        <img src="images/4.jpg" class="card-img-top" alt="Climate Change Impacts">
+                        <img src="images/env-change.jpg" class="card-img-top" alt="Environmental Change Impacts">
                         <div class="card-body">
                             <h5 class="card-title">Climate Change Impacts</h5>
                             <p class="card-text">Description of Climate Change Impacts and related skills.</p>
