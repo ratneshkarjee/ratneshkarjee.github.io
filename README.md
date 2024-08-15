@@ -117,10 +117,10 @@
                 <h3>Hello, Welcome to Ratnesh's Profile!</h3>
                 <p class="text-justify">Curiosity to explore and discover new knowledge and learn new things should form the base for any researcher. Growing up in a village in West Bengal, I was intrigued when I first encountered subjects such as animal behaviour in my bachelor’s degree coursework. These courses helped me better understand the animals I had seen back home, including the human-elephant conflicts in my region. I believe this was the start of my journey in wildlife conservation.</p>
                 <div class="social-icons">
-                    <a href="mailto:ratneshkarjee@yahoo.com"><img src="icons/email.png" alt="Email"></a>
-                    <a href="https://github.com/ratneshkarjee/"><img src="icons/github.png" alt="GitHub"></a>
-                    <a href="https://www.researchgate.net/profile/Ratnesh-Karjee"><img src="icons/researchgate.png" alt="ResearchGate"></a>
-                    <a href="https://scholar.google.com/citations?user=HtWRd9gAAAAJ&hl=en&authuser=1"><img src="icons/google-scholar.png" alt="Google Scholar"></a>
+                    <a href="mailto:your.email@example.com"><img src="icons/email.png" alt="Email"></a>
+                    <a href="https://www.researchgate.net/"><img src="icons/researchgate.png" alt="ResearchGate"></a>
+                    <a href="https://scholar.google.com/"><img src="icons/google-scholar.png" alt="Google Scholar"></a>
+                    <a href="https://github.com/"><img src="icons/github.png" alt="GitHub"></a>
                 </div>
                 <img src="images/rectangular_image.jpg" alt="Rectangular Image" class="rect-img">
             </div>
@@ -129,7 +129,7 @@
         <!-- About Me Section -->
         <section id="about-me" class="section">
             <h2 class="section-title">About Me</h2>
-            <img src="images/about.gif" alt="My Picture" class="profile-img">
+            <img src="images/my_gif_picture.gif" alt="My Picture" class="profile-img">
             <div class="section-content">
                 <h3>Hello! I'm <strong>Ratnesh Karjee</strong></h3>
                 <p>I am a Wildlife Biologist and currently pursuing Ph.D. from <a href="https://www.ashoka.edu.in/" target="_blank">Ashoka University</a>. Before joining Ashoka's PhD program, I completed my master’s degree in Wildlife & Biodiversity Conservation at North Orissa University. In 2019, I was hired as a research biologist by the Zoological Survey of India. In addition, I have several years of multidisciplinary research experience in various Indian landscapes, as well as competence in Taxonomy, Geospatial data processing, Biodiversity Impact Assessment, and Biodiversity Monitoring. Aside from that, I am passionate about human-animal conflict, landscape ecology, and the effects of climate change on wildlife. I was working at Ashoka University as a Junior Research Fellow on the project “Whole genome sequencing and comparative genomics to study the evolution, genetic diversity, and immunology of bats from the Indian subcontinent. My research interest lies in an integrated approach of modern tools like genomic and GIS to answer various ecological questions. Apart from the academic and research pursuits, I love to play football, volleyball, cricket, etc. Also, I find pleasure in photography, hiking, drawing, and painting.</p>
@@ -195,4 +195,6 @@
                 <ul>
                     <li><strong>2024:</strong> Blog Title</li>
                     <li><strong>2023:</strong> Blog Title</li>
-                    <li><strong>2022:</strong> Blog Title
+                    <li><strong>2022:</strong> Blog Title</li>
+                    <!-- Add more stories and blogs as needed -->
+               
