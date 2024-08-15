@@ -11,13 +11,14 @@
         .profile-picture {
             width: 200px;
             height: auto;
+            max-width:600px;
             border-radius: 10px;
         }
         .about-image {
             width: 100%;
             height: auto;
-            max-width: 600px;
-            border: 5px solid #ddd;
+            max-width: 800px;
+            border: 10px;
         }
         .about-text {
             text-align: justify;
