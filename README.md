@@ -113,7 +113,7 @@
                 <!-- Skill Card 3 -->
                 <div class="col-md-3">
                     <div class="card">
-                        <img src="images/field_experience_icon.png" class="card-img-top" alt="Field Experience Icon">
+                        <img src="images/field.jpg" class="card-img-top" alt="Field Experience Icon">
                         <div class="card-body">
                             <h5 class="card-title">Field Experience</h5>
                             <p class="card-text">I have five years of working experience in various landscapes of India like the Eastern & Western Himalayas, Western Ghats, Gangetic Flood Plain, Chotanagpur, etc., which helps me to gain systematic study design, conduct field surveys, data collection, and lead team members. In addition, my expertise in monitoring wildlife using non-invasive sampling methods like camera traps, fecal, and sign surveys.</p>
