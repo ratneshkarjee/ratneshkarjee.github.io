@@ -117,7 +117,7 @@
         <h2>About Me</h2>
         <div class="row justify-content-center">
             <div class="col-md-4 mb-4">
-                <img src="images/about.jpg" alt="Ratnesh Karjee">
+                <img src="images/about.JPG" alt="Ratnesh Karjee">
             </div>
             <div class="col-md-8">
                 <p>
