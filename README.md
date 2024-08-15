@@ -45,7 +45,7 @@
                     <img src="images/rectangular_image.jpg" class="img-fluid" alt="Rectangular Image">
                 </div>
                 <div class="col-md-6">
-                    <img src="images/profile_picture.jpg" class="img-fluid rounded-circle" alt="Profile Picture">
+                    <img src="images/profile-rmbg.png" class="img-fluid rounded-circle" alt="Profile Picture">
                     <h1>Welcome to My Portfolio</h1>
                     <p>Hi, I'm Ratnesh Karjee, a Wildlife Biologist and Ph.D. candidate at <a href="https://www.ashoka.edu.in" target="_blank">Ashoka University</a>. Welcome to my portfolio where you can explore my research, skills, and publications.</p>
                 </div>
