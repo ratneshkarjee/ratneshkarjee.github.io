@@ -7,6 +7,16 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
+        body {
+            scroll-behavior: smooth;
+        }
+        .section {
+            display: none;
+            padding: 50px 0;
+        }
+        .section.active {
+            display: block;
+        }
         .hero-section {
             background: url('images/hero-bg.jpg') no-repeat center center/cover;
             height: 100vh;
@@ -41,6 +51,7 @@
             color: white;
             position: relative;
             z-index: 3;
+            text-align: center;
         }
         .hero-image img {
             border-radius: 50%;
@@ -60,10 +71,6 @@
             height: 180px;
             object-fit: cover;
         }
-        .skill-card img {
-            width: 100px;
-            height: 100px;
-        }
         .contact-icon {
             background-color: pink;
             border-radius: 50%;
@@ -80,6 +87,13 @@
             background-color: #333;
             color: white;
             padding: 50px 0;
+        }
+        .nav-buttons {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .nav-buttons button {
+            margin: 0 10px;
         }
     </style>
 </head>
@@ -100,13 +114,13 @@
                         <a class="nav-link" href="#about">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
+                        <a class="nav-link" href="#skills">Skills & Expertise</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#skills">Skills</a>
+                        <a class="nav-link" href="#publication">Publication</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact Me</a>
+                        <a class="nav-link" href="#stories">Stories & Blogs</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#cv">CV</a>
@@ -117,95 +131,88 @@
     </nav>
 
     <!-- Home Page -->
-    <section id="home" class="hero-section">
+    <section id="home" class="section active hero-section">
         <div class="container d-flex">
-            <div class="hero-text col-md-6">
-                <div class="hero-image mb-4">
-                    <img src="images/about.jpg" alt="Ratnesh Karjee">
-                </div>
-                <h1>Hello, I'm Ratnesh Karjee</h1>
-                <p>Welcome to my page. I am a PhD student at Ashoka University with a passion for wildlife studies and research. Explore my work and connect with me!</p>
+            <div class="hero-text col-md-12">
+                <h1>Welcome!</h1>
+                <p>Curiosity to explore and discover new knowledge and learn new things should form the base for any researcher. Growing up in a village in West Bengal, I was intrigued when I first encountered subjects such as animal behaviour in my bachelor’s degree coursework. These courses helped me better understand the animals I had seen back home, including the human-elephant conflicts in my region. I believe this was the start of my journey in wildlife conservation.</p>
             </div>
         </div>
     </section>
 
     <!-- About Me Page -->
-    <section id="about" class="py-5 text-center">
-        <h2>About Me</h2>
-        <div id="aboutCarousel" class="carousel slide">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="images/about1.jpg" alt="About Image 1">
-                </div>
-                <div class="carousel-item">
-                    <img src="images/about2.jpg" alt="About Image 2">
-                </div>
-                <div class="carousel-item">
-                    <img src="images/about3.jpg" alt="About Image 3">
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#aboutCarousel" role="button" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#aboutCarousel" role="button" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </a>
-        </div>
-        <div class="mt-4">
+    <section id="about" class="section">
+        <div class="container text-center">
+            <h2>About Me</h2>
             <img src="images/about.jpg" alt="Ratnesh Karjee" class="about-image">
-            <p>Ratnesh Karjee is Ph.D student at Ashoka University. Ratnesh pursued his master’s degree in Wildlife & Biodiversity Conservation at North Orissa University after developing an interest in wildlife studies. In 2019, he was hired as a research biologist by the Zoological Survey of India. In addition, he has several years of multidisciplinary research experience in various Indian landscapes, as well as competence in Taxonomy, Geospatial data processing, Biodiversity Impact Assessment, and Biodiversity Monitoring. Aside from that, he is passionate about human-animal conflict, landscape ecology, and the effects of climate change on wildlife. He was working at Ashoka University as a Junior Research Fellow on the project “Whole genome sequencing and comparative genomics to study the evolution, genetic diversity, and immunology of bats from the Indian subcontinent.”His interest lies in integrated approach of modern tools like genomic and GIS to answer various ecological question. Apart from the academic and research pursuits, he loves to paly football, vollyball, cricket etc. Also, he finds pleasure in photography, drawing and painting.</p>
+            <p>I am a PhD student at Ashoka University. My research focuses on wildlife and biodiversity conservation. With expertise in taxonomy, geospatial data processing, and more, I am committed to understanding and protecting wildlife.</p>
         </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="py-5">
+    <!-- Skills & Expertise Section -->
+    <section id="skills" class="section">
         <div class="container text-center">
-            <h2 class="mb-4">Projects</h2>
-            <div class="row">
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="images/projects/1.jpg" class="card-img-top" alt="Project 1">
-                        <div class="card-body">
-                            <h5 class="card-title">Project 1</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <a href="#" class="btn btn-primary">Blog Post</a>
-                            <a href="#" class="btn btn-secondary">Source Code</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="images/projects/2.jpg" class="card-img-top" alt="Project 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Project 2</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <a href="#" class="btn btn-primary">Blog Post</a>
-                            <a href="#" class="btn btn-secondary">Source Code</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="images/projects/3.jpg" class="card-img-top" alt="Project 3">
-                        <div class="card-body">
-                            <h5 class="card-title">Project 3</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <a href="#" class="btn btn-primary">Blog Post</a>
-                            <a href="#" class="btn btn-secondary">Source Code</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="py-5">
-        <div class="container text-center">
-            <h2 class="mb-4">Skills</h2>
+            <h2 class="mb-4">Skills & Expertise</h2>
             <div class="row">
                 <div class="col-md-3 mb-4">
                     <div class="card skill-card">
-                        <img src="images/skills/1
+                        <img src="images/skills/1.png" alt="Skill 1" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Skill 1</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <a href="#" class="btn btn-primary">Link to course or bootcamp</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card skill-card">
+                        <img src="images/skills/2.png" alt="Skill 2" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Skill 2</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <a href="#" class="btn btn-primary">Link to course or bootcamp</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card skill-card">
+                        <img src="images/skills/3.png" alt="Skill 3" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Skill 3</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <a href="#" class="btn btn-primary">Link to course or bootcamp</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card skill-card">
+                        <img src="images/skills/4.png" alt="Skill 4" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Skill 4</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <a href="#" class="btn btn-primary">Link to course or bootcamp</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publication Section -->
+    <section id="publication" class="section">
+        <div class="container text-center">
+            <h2 class="mb-4">Publication</h2>
+            <p>Details about your publications will be listed here.</p>
+        </div>
+    </section>
+
+    <!-- Stories & Blogs Section -->
+    <section id="stories" class="section">
+        <div class="container text-center">
+            <h2 class="mb-4">Stories & Blogs</h2>
+            <p>Details about your stories and blogs will be listed here.</p>
+        </div>
+    </section>
+
+    <!-- CV Section -->
+    <section id="cv" class="section">
