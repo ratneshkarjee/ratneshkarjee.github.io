@@ -10,6 +10,7 @@
         body {
             font-family: Arial, sans-serif;
             color: #333;
+            background: #ffffff; /* Set background color for the entire page */
         }
 
         /* Sticky Navigation Bar */
@@ -30,6 +31,7 @@
         /* Sections */
         section {
             padding: 60px 0;
+            background: #ffffff; /* Set background color for all sections */
         }
 
         /* Home Section */
@@ -39,7 +41,6 @@
             align-items: center;
             justify-content: center;
             text-align: center;
-            background: #f0f0f0;
         }
 
         .profile-img {
@@ -51,7 +52,7 @@
 
         /* About Section */
         #about {
-            background: #f0f0f0;
+            /* background color is already set to white */
         }
 
         .about-img {
@@ -62,7 +63,7 @@
 
         /* Skill & Expertise Section */
         #skills {
-            background: #ffffff;
+            /* background color is already set to white */
         }
 
         .card {
@@ -78,7 +79,7 @@
 
         /* Publication Section */
         #publications {
-            background: #ffffff;
+            /* background color is already set to white */
         }
 
         .publication-container {
