@@ -3,217 +3,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ratnesh Karjee Portfolio</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Portfolio Website</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        /* General Styles */
         body {
-            font-family: Arial, sans-serif;
-            color: #333;
-            background: #ffffff; /* Set background color for the entire page */
+            background-color: #f8f9fa;
         }
-
-        /* Sticky Navigation Bar */
-        .navbar {
-            background: linear-gradient(to right, #0033cc, #000000);
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        .navbar-nav .nav-link {
-            color: #ffffff !important;
-            font-weight: bold;
-        }
-
-        .navbar-nav .nav-link:hover {
-            color: #cccccc !important;
-        }
-
-        /* Sections */
-        section {
+        .section {
             padding: 60px 0;
-            background: #ffffff; /* Set background color for all sections */
-            display: none;
         }
-
-        /* Home Section */
-        #home {
-            display: block; /* Show home section by default */
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
+        .section-heading {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
         }
-
-        .profile-img {
-            width: 100%;
-            max-width: 500px;
-            height: auto;
-            margin: 0 auto;
-        }
-
-        /* About Section */
-        #about {
-            /* background color is already set to white */
-        }
-
-        .about-img {
-            width: 100%;
-            max-width: 600px; /* Increased size of the image */
-            height: auto;
-        }
-
-        /* Research Interest Section */
-        #research {
-            /* background color is already set to white */
-        }
-
-        .card {
-            margin: 10px 0;
-            border: none;
-            border-radius: 10px;
-        }
-
         .card-img-top {
-            height: 180px;
+            max-height: 200px;
             object-fit: cover;
         }
-
-        /* Publication Section */
-        #publications {
-            /* background color is already set to white */
+        .card-body {
+            text-align: center;
         }
-
-        .publication-container {
-            display: flex;
-            align-items: flex-start;
+        .card-body img {
+            max-height: 100px;
         }
-
-        .publication-container img {
-            width: 300px;
-            height: auto;
-            margin-right: 20px;
-        }
-
-        .publication-list {
-            max-width: 600px;
-        }
-
-        .publication-list ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        .publication-list li {
-            margin-bottom: 10px;
-        }
-
-        /* Footer */
-        footer {
-            background-color: #f8f9fa;
+        .contact-icons img {
+            width: 40px;
+            height: 40px;
+            margin: 0 10px;
+            border-radius: 50%;
+            background-color: #f50057;
             padding: 10px;
+            transition: background-color 0.3s;
         }
-
-        /* Text Justification */
-        .text-justify {
-            text-align: justify;
+        .contact-icons img:hover {
+            background-color: #c51162;
+        }
+        .contact-info {
+            margin-bottom: 30px;
+        }
+        .contact-info .icon {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+        .footer {
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 30px 0;
+        }
+        .footer a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 576px) {
+            .card-columns {
+                column-count: 1;
+            }
+        }
+        .card {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+        .card-body {
+            padding: 20px;
+        }
+        .bold {
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Ratnesh Karjee</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="#" onclick="showSection('home')">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#" onclick="showSection('about')">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#" onclick="showSection('research')">Research Interest</a></li>
-                <li class="nav-item"><a class="nav-link" href="#" onclick="showSection('publications')">Publications</a></li>
-                <li class="nav-item"><a class="nav-link" href="#" onclick="showSection('collaborators')">Collaborators</a></li>
-                <li class="nav-item"><a class="nav-link" href="#" onclick="showSection('blogs')">Stories & Blogs</a></li>
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#research">Research Interests</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills & Expertise</a></li>
+                <li class="nav-item"><a class="nav-link" href="#publications">Selected Publications</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
             </ul>
         </div>
     </nav>
 
     <!-- Home Section -->
-    <section id="home">
-        <div class="container">
-            <div class="row align-items-center">
+    <section id="home" class="section">
+        <div class="container text-center">
+            <div class="row">
                 <div class="col-md-6">
-                    <img src="images/profile-rmbg.png" alt="Profile Picture" class="profile-img">
+                    <img src="images/home.jpg" class="img-fluid" alt="Home Image">
                 </div>
                 <div class="col-md-6">
-                    <h1 class="display-4">Hello, Welcome to Ratnesh's World</h1>
-                    <p class="text-justify">Curiosity to explore and discover new knowledge and learn new things should form the base for any researcher. Growing up in a village in West Bengal, I was intrigued when I first encountered subjects such as animal behaviour in my bachelor’s degree coursework. These courses helped me better understand the animals I had seen back home, including the human-elephant conflicts in my region. I believe this was the start of my journey in wildlife conservation. Also, kindly keep in touch for collaboration after exploring my scientific porfolio.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <h2 class="display-4">About</h2>
-                    <p class="text-justify">Hello! I'm Ratnesh Karjee. I am a Wildlife Biologist currently pursuing a Ph.D. from <a href="https://www.ashoka.edu.in/" target="_blank">Ashoka University</a>. Before joining Ashoka's PhD program, I completed my master’s degree in Wildlife & Biodiversity Conservation at North Orissa University. In 2019, I was hired as a research biologist by the Zoological Survey of India. In addition, I have several years of multidisciplinary research experience in various Indian landscapes, as well as competence in Taxonomy, Geospatial data processing, Biodiversity Impact Assessment, and Biodiversity Monitoring. Aside from that, I am passionate about human-animal conflict, landscape ecology, and the effects of climate change on wildlife. I was working at Ashoka University as a Junior Research Fellow on the project “Whole genome sequencing and comparative genomics to study the evolution, genetic diversity, and immunology of bats from the Indian subcontinent.</p>
-                    <p class="text-justify">My research interest lies in integrated approach of modern tools like genomic and GIS to answer various ecological question. Apart from the academic and research pursuits, I love to play football, volleyball, cricket etc. Also, I find pleasure in photography, hiking, drawing and painting.</p>
-                </div>
-                <div class="col-md-6">
-                    <img src="images/about.gif" alt="About Me" class="about-img">
+                    <h1>Welcome to My Portfolio</h1>
+                    <p>Discover more about my research, skills, and experience.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Skill & Expertise Section -->
-    <section id="skills">
-        <h2 class="display-4 text-center">Skills & Expertise</h2>
+    <!-- Selected Publications Section -->
+    <section id="publications" class="section bg-light">
         <div class="container">
+            <h2 class="section-heading text-center">Selected Publications</h2>
+            <ul>
+                <li><strong>Ghosh, D.</strong>, <strong>Karjee, R.</strong>, and <strong>Subramanian, K. A.</strong> 2024. Notes on the Cleptoparasitic Bees from Tawang District in Arunachal Pradesh, India with Special Reference to Family Apidae of Order Hymenoptera. Records of Zoological Survey of India. 124 (iS), 501-512. doi:10.26515/rzsi/v124/i1S/2024/172758</li>
+                <li><strong>Ghosh, D.</strong>, <strong>Chatterjee, P.</strong>, <strong>Karjee, R.</strong>, and <strong>Subramanian, K.A.</strong> 2023. Flower visitor assemblage and foraging profile of a pollinator attractant non-crop plant Isodon coetsa (Buch.-Ham. ex D.Don) Kudô from eastern Himalayas, India. Proceedings of Zoological Society. <a href="https://doi.org/10.1007/s12595-023-00498-x" target="_blank">https://doi.org/10.1007/s12595-023-00498-x</a></li>
+                <li><strong>Karjee, R.</strong>, <strong>Palei, H. S.</strong>, <strong>Konwar, A.</strong>, <strong>Gogoi, A.</strong>, & <strong>Mishra, R. K.</strong> 2022. Bird assemblages in a peri-urban landscape in eastern India. Birds. 3(4), 383-401 <a href="https://doi.org/10.3390/birds3040026" target="_blank">https://doi.org/10.3390/birds3040026</a></li>
+                <li><strong>Patra, A.</strong>, <strong>Ahmed, T.M.</strong>, <strong>Karjee, R.</strong>, and <strong>Bhandari, S.</strong> 2019. Sighting of madras tree shrew Anathana ellioti (Waterhouse, 1850) with first photographic evidence at Ajodhya range, district Purulia, West Bengal, India. International Journal of Fauna and Biological Studies. 6(1):41-42</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section bg-light">
+        <div class="container">
+            <h2 class="section-heading text-center">About Me</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <img src="images/about.gif" class="img-fluid rounded-circle" alt="Ratnesh Karjee">
+                </div>
+                <div class="col-md-8">
+                    <p><strong>Hello, I am Ratnesh Karjee</strong>, a Wildlife Biologist and currently pursuing a PhD at <a href="https://www.ashoka.edu.in/" target="_blank">Ashoka University</a> in the Department of Biology. Before joining Ashoka, I completed my master’s degree in Wildlife & Biodiversity Conservation at <a href="https://www.nou.nic.in/" target="_blank">North Orissa University</a>. In 2019, I was hired as a research biologist by the <a href="https://zsi.gov.in/" target="_blank">Zoological Survey of India</a>. I have several years of multidisciplinary research experience in various Indian landscapes, as well as competence in Taxonomy, Geospatial data processing, Biodiversity Impact Assessment, and Biodiversity Monitoring. I am passionate about human-animal conflict, landscape ecology, and the effects of the Anthropocene and climate change on wildlife. I was working at Ashoka University as a Junior Research Fellow on the project “Whole genome sequencing and comparative genomics to study the evolution, genetic diversity, and immunology of bats from the Indian subcontinent.” My interest lies in an integrated approach of modern tools like genomics and GIS to answer various ecological questions. Apart from academic and research pursuits, I love to play football, volleyball, cricket, and enjoy photography, hiking, birding, drawing, and painting.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Interests Section -->
+    <section id="research" class="section">
+        <div class="container">
+            <h2 class="section-heading text-center">Research Interests</h2>
             <div class="row">
                 <div class="col-md-3">
                     <div class="card">
                         <img src="images/congeno.jpg" class="card-img-top" alt="Conservation Genomics">
                         <div class="card-body">
                             <h5 class="card-title">Conservation Genomics</h5>
-                            <p class="card-text">Description of Conservation Genomics and related skills.</p>
+                            <p class="card-text">Understanding the genetic diversity and evolution of species for better conservation strategies.</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="images/landscape.png" class="card-img-top" alt="Landscape Ecology">
-                        <div class="card-body">
-                            <h5 class="card-title">Landscape Ecology</h5>
-                            <p class="card-text">Description of Landscape Ecology and related skills.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="images/human-wildlife.jpg" class="card-img-top" alt="Human-Wildlife Conflict">
-                        <div class="card-body">
-                            <h5 class="card-title">Human-Wildlife Conflict</h5>
-                            <p class="card-text">Description of Human-Wildlife Conflict and related skills.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="images/env-change.jpg" class="card-img-top" alt="Climate Change Impacts">
-                        <div class="card-body">
-                            <h5 class="card-title">Climate Change Impacts</h5>
-                            <p class="card-text">Description of Climate Change Impacts and related skills.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Publication Section -->
-    <section id="publications
