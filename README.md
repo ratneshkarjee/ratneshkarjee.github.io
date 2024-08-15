@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ratnesh Karjee - Portfolio</title>
+    <title>Ratnesh Karjee - </title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Custom CSS -->
@@ -47,7 +47,7 @@
                 <div class="col-md-6">
                     <img src="images/profile_picture.jpg" class="img-fluid rounded-circle" alt="Profile Picture">
                     <h1>Welcome to My Portfolio</h1>
-                    <p>Hi, I'm Ratnesh Karjee, a Wildlife Biologist and Ph.D. candidate at Ashoka University. Welcome to my portfolio where you can explore my research, skills, and publications.</p>
+                    <p>Hi, I'm Ratnesh Karjee, a Wildlife Biologist and Ph.D. candidate at <a href="https://www.ashoka.edu.in" target="_blank">Ashoka University</a>. Welcome to my portfolio where you can explore my research, skills, and publications.</p>
                 </div>
             </div>
         </div>
@@ -138,21 +138,4 @@
     <footer class="bg-dark text-light text-center py-4">
         <div class="container">
             <h2 class="section-heading">Contact Me</h2>
-            <div class="contact-info">
-                <a href="mailto:ratneshkarjee@example.com" class="text-light"><img src="icons/email.png" alt="Email"> Email</a>
-                <a href="https://scholar.google.com/citations?user=your_google_scholar_id" class="text-light"><img src="icons/google_scholar.png" alt="Google Scholar"> Google Scholar</a>
-                <a href="https://www.researchgate.net/profile/Ratnesh_Karjee" class="text-light"><img src="icons/researchgate.png" alt="ResearchGate"> ResearchGate</a>
-                <a href="https://github.com/ratneshkarjee" class="text-light"><img src="icons/github.png" alt="GitHub"> GitHub</a>
-                <a href="https://medium.com/@ratneshkarjee" class="text-light"><img src="icons/medium.png" alt="Medium"> Medium</a>
-                <a href="https://www.youtube.com/channel/your_channel_id" class="text-light"><img src="icons/youtube.png" alt="YouTube"> YouTube</a>
-            </div>
-            <p>&copy; 2024 Ratnesh Karjee. All rights reserved.</p>
-        </div>
-    </footer>
-
-    <!-- Bootstrap JS and dependencies -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
+            <div
