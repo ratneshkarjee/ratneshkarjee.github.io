@@ -42,10 +42,8 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="images/rectangular_image.jpg" class="img-fluid" alt="Rectangular Image">
+                    <img src="images/profile-rmbg.png" class="img-fluid" alt="Rectangular Image">
                 </div>
-                <div class="col-md-6">
-                    <img src="images/profile-rmbg.png" class="img-fluid rounded-circle" alt="Profile Picture">
                     <h1>Welcome to My Portfolio</h1>
                     <p>Hi, I'm Ratnesh Karjee, a Wildlife Biologist and Ph.D. candidate at <a href="https://www.ashoka.edu.in" target="_blank">Ashoka University</a>. Welcome to my portfolio where you can explore my research, skills, and publications.</p>
                 </div>
@@ -138,7 +136,7 @@
     <footer class="bg-dark text-light text-center py-4" id="contact">
         <div class="container">
             <h4>Contact Me</h4>
-            <p>Email: <a href="mailto:ratnesh.karjee@example.com">ratnesh.karjee@example.com</a></p>
+            <p>Email: <a href="mailto:ratneshkarjee@yahoo.com">ratneshkarjee@yahoo.com</a></p>
             <p><a href="https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID" target="_blank">Google Scholar</a> | <a href="https://www.researchgate.net/profile/Ratnesh_Karjee" target="_blank">ResearchGate</a> | <a href="https://github.com/Ratnesh-Karjee" target="_blank">GitHub</a></p>
         </div>
     </footer>
