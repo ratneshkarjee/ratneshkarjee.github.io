@@ -3,203 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ratnesh Karjee - Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Portfolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
         }
-        header {
+        .header {
             position: fixed;
+            width: 100%;
             top: 0;
             left: 0;
-            width: 100%;
-            background: rgba(0, 0, 0, 0.8);
-            color: #fff;
-            padding: 10px 0;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 15px 0;
             z-index: 1000;
-        }
-        header nav {
             display: flex;
-            justify-content: center;
+            justify-content: center; /* Center the nav items horizontally */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .header .container {
+            max-width: 1200px; /* Adjust this value to increase/decrease header width */
+            display: flex;
+            justify-content: space-between;
             align-items: center;
         }
-        header nav a {
-            color: #fff;
-            margin: 0 15px;
+        .header a {
+            color: white;
+            padding: 15px;
             text-decoration: none;
-            font-size: 18px;
-            transition: color 0.3s;
+            display: inline-block;
         }
-        header nav a:hover {
-            color: #f8f9fa;
+        .header a:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+            border-radius: 5px;
         }
-        section {
-            padding: 80px 20px 20px;
+        .section {
+            padding: 60px 20px;
             min-height: 100vh;
         }
-        #home {
-            background: url('images/home-bg.jpg') no-repeat center center;
-            background-size: cover;
+        .home-img {
+            width: 400px; /* Adjust width as needed */
+            height: 250px; /* Adjust height as needed */
+            object-fit: cover; /* Ensures the image covers the dimensions without distortion */
+            border: 5px solid #fff;
+            border-radius: 10px; /* Rounded corners for a softer look */
+        }
+        .contact-info {
+            margin-top: 20px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .contact-info i {
+            margin-right: 10px;
+        }
+        .contact-info a {
             color: #fff;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            text-align: justify;
+        }
+        .container h1 {
             text-align: center;
-        }
-        #home h1, #home p {
-            margin: 0;
-        }
-        #about img {
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
-            border-radius: 50%;
-            border: 5px solid #007bff;
-        }
-        #projects .card {
             margin-bottom: 20px;
         }
-        #skills .card {
-            margin-bottom: 20px;
-        }
-        #contact {
-            background-color: #343a40;
-            color: #fff;
-        }
-        #contact .icon {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            background-color: #007bff;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 10px;
-        }
-        #contact .icon img {
-            width: 24px;
-            height: 24px;
+        .section img {
+            width: 100%; /* Makes images responsive */
+            height: auto; /* Maintains aspect ratio */
         }
     </style>
 </head>
 <body>
 
-<header>
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About Me</a>
-        <a href="#skills">Skills & Expertise</a>
-        <a href="#projects">Projects</a>
-        <a href="#collaborators">Collaborators</a>
-        <a href="#publication">Publication</a>
-        <a href="#stories">Stories & Blogs</a>
-        <a href="#cv">CV</a>
-        <a href="#contact">Contact Me</a>
-    </nav>
-</header>
-
-<section id="home" class="text-center">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <img src="images/profile.jpg" alt="Ratnesh Karjee" class="img-fluid rounded-circle">
-            </div>
-            <div class="col-md-6">
-                <h1>Hello, I'm Ratnesh Karjee</h1>
-                <p>Curiosity to explore and discover new knowledge and learn new things should form the base for any researcher. Growing up in a village in West Bengal, I was intrigued when I first encountered subjects such as animal behaviour in my bachelor’s degree coursework. These courses helped me better understand the animals I had seen back home, including the human-elephant conflicts in my region. I believe this was the start of my journey in wildlife conservation.</p>
-            </div>
+    <!-- Header -->
+    <div class="header">
+        <div class="container">
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills & Expertise</a>
+            <a href="#projects">Projects</a>
+            <a href="#collaborators">Collaborators</a>
+            <a href="#publication">Publication</a>
+            <a href="#stories">Stories & Blogs</a>
+            <a href="#cv">CV</a>
+            <a href="#contact">Contact Me</a>
         </div>
     </div>
-</section>
 
-<section id="about">
-    <div class="container text-center">
-        <h2>About Me</h2>
-        <div class="row justify-content-center">
-            <div class="col-md-4 mb-4">
-                <img src="images/about.JPG" alt="Ratnesh Karjee">
-            </div>
-            <div class="col-md-8">
-                <p>
-                    I am Ratnesh Karjee, a Wildlife Biologist currently pursuing a Ph.D. in Biology at <a href="https://www.ashoka.edu.in/" target="_blank">Ashoka University</a>. Before joining Ashoka University, I completed my master’s degree in Wildlife & Biodiversity Conservation at North Orissa University, where my fascination with wildlife studies began. In 2019, I joined the Zoological Survey of India as a research biologist. My research spans various Indian landscapes, focusing on Taxonomy, Geospatial data processing, Biodiversity Impact Assessment, and Biodiversity Monitoring.
-                </p>
-                <p>
-                    My passion extends to understanding human-animal conflicts, landscape ecology, and the impacts of climate change on wildlife. At Ashoka University, as a Junior Research Fellow, I am involved in a project on “Whole genome sequencing and comparative genomics to study the evolution, genetic diversity, and immunology of bats from the Indian subcontinent.”
-                </p>
-                <p>
-                    I am particularly interested in using modern tools like genomics and GIS to address various ecological questions. Outside of my academic and research endeavors, I enjoy playing football, volleyball, and cricket, as well as photography, drawing, and painting.
-                </p>
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <div class="container text-center">
+            <img src="images/about.jpg" alt="Ratnesh Karjee" class="home-img">
+            <h1>Welcome</h1>
+            <p>Curiosity to explore and discover new knowledge and learn new things should form the base for any researcher. Growing up in a village in West Bengal, I was intrigued when I first encountered subjects such as animal behaviour in my bachelor’s degree coursework. These courses helped me better understand the animals I had seen back home, including the human-elephant conflicts in my region. I believe this was the start of my journey in wildlife conservation.</p>
+            
+            <div class="contact-info">
+                <p><i class="fa fa-envelope"></i><a href="mailto:ratneshkarjeeatherasteyahoo.com">ratneshkarjeeatherasteyahoo.com</a></p>
+                <p><i class="fa fa-google"></i><a href="https://scholar.google.com/citations?user=HtWRd9gAAAAJ&hl=en" target="_blank">Google Scholar</a></p>
+                <p><i class="fa fa-researchgate"></i><a href="https://www.researchgate.net/profile/Ratnesh-Karjee" target="_blank">ResearchGate</a></p>
+                <p><i class="fa fa-github"></i><a href="https://github.com/your-github" target="_blank">GitHub</a></p>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section id="skills">
-    <div class="container text-center">
-        <h2>Skills & Expertise</h2>
-        <div class="row">
-            <div class="col-md-3">
-                <div class="card">
-                    <img src="images/skills/1.png" class="card-img-top" alt="Skill 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Python</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel purus et dolor dictum cursus.</p>
-                        <a href="#" class="btn btn-primary">Link to course or bootcamp</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card">
-                    <img src="images/skills/2.png" class="card-img-top" alt="Skill 2">
-                    <div class="card-body">
-                        <h5 class="card-title">Data Visualization</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel purus et dolor dictum cursus.</p>
-                        <a href="#" class="btn btn-primary">Link to course or bootcamp</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card">
-                    <img src="images/skills/3.png" class="card-img-top" alt="Skill 3">
-                    <div class="card-body">
-                        <h5 class="card-title">SQL</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel purus et dolor dictum cursus.</p>
-                        <a href="#" class="btn btn-primary">Link to course or bootcamp</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card">
-                    <img src="images/skills/4.png" class="card-img-top" alt="Skill 4">
-                    <div class="card-body">
-                        <h5 class="card-title">Data Storytelling</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel purus et dolor dictum cursus.</p>
-                        <a href="#" class="btn btn-primary">Link to course or bootcamp</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+    <!-- Add other sections here -->
 
-<section id="projects">
-    <div class="container text-center">
-        <h2>Projects</h2>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="images/projects/1.jpg" class="card-img-top" alt="Project 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Project 1</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel purus et dolor dictum cursus.</p>
-                        <a href="#" class="btn btn-primary">Blog Post</a>
-                        <a href="#" class="btn btn-secondary">Source Code</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="images/projects/2.jpg" class="card-img-top" alt="Project 2">
-                    <div class="card-body">
-                        <h5 class="card-title">Project 2</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
