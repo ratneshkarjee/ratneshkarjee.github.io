@@ -93,7 +93,7 @@
                 <!-- Skill Card 1 -->
                 <div class="col-md-3">
                     <div class="card">
-                        <img src="images/remotes.jpg" class="card-img-top" alt="RS & GIS Icon">
+                        <img src="images/remote.jpg" class="card-img-top" alt="RS & GIS Icon">
                         <div class="card-body">
                             <h5 class="card-title">Remote Sensing & GIS</h5>
                             <p class="card-text">I am proficient in geospatial modelling (including Species Distribution Modelling). Apart from this, I use to teach and provide technical assistance to graduate students, interns, and professionals in RS and GIS. In addition, I can handle various software like QGIS, ArcGIS, GeoDa, Google Earth Engine, and Diva-GIS.</p>
