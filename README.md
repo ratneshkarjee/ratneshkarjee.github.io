@@ -104,7 +104,7 @@
                 <!-- Skill Card 2 -->
                 <div class="col-md-3">
                     <div class="card">
-                        <img src="images/molecular_biology_icon.png" class="card-img-top" alt="Molecular Biology Icon">
+                        <img src="images/genomics.jpg" class="card-img-top" alt="Molecular Biology Icon">
                         <div class="card-body">
                             <h5 class="card-title">Molecular & Ecological Data Analysis</h5>
                             <p class="card-text">I have expertise in analyzing ecological and genomic data using various software such as R, PopArt, DnaSP, and MEGA.</p>
