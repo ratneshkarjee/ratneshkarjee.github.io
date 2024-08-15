@@ -113,7 +113,7 @@
                 <!-- Skill Card 3 -->
                 <div class="col-md-3">
                     <div class="card">
-                        <img src="images/field.jpg" class="card-img-top" alt="Field Experience Icon">
+                        <img src="field.jpg" class="card-img-top" alt="Field Experience Icon">
                         <div class="card-body">
                             <h5 class="card-title">Field Experience</h5>
                             <p class="card-text">I have five years of working experience in various landscapes of India like the Eastern & Western Himalayas, Western Ghats, Gangetic Flood Plain, Chotanagpur, etc., which helps me to gain systematic study design, conduct field surveys, data collection, and lead team members. In addition, my expertise in monitoring wildlife using non-invasive sampling methods like camera traps, fecal, and sign surveys.</p>
@@ -123,10 +123,10 @@
                 <!-- Skill Card 4 -->
                 <div class="col-md-3">
                     <div class="card">
-                        <img src="images/field_experience_icon.png" class="card-img-top" alt="Field Experience Icon">
+                        <img src="biodiv.png" class="card-img-top" alt="Biodiversity Monitoring">
                         <div class="card-body">
-                            <h5 class="card-title">Biodiversity Monitoring & Impact Assessment</h5>
-                            <p class="card-text">I possess expertise in conducting systematic field studies to assess biodiversity (invertebrates and vertebrates). During my master’s course, I also prepared People Biodiversity Register (PBR) using both Traditional Ecological Knowledge (TEK) and scientific methods. Furthermore, I can identify bats, scorpions, and centipedes through morphological taxonomy.</p>
+                            <h5 class="card-title">Biodiversity Monitoring, Conservation & Impact Assessment</h5>
+                            <p class="card-text">I possess expertise in conducting systematic field studies to assess biodiversity (invertebrates and vertebrates). I can design experiment for biodiversity management and impact assessment for sustainable conservation practices. In addition, during my master’s course, I also prepared People Biodiversity Register (PBR) using both Traditional Ecological Knowledge (TEK) and scientific methods. Furthermore, I can identify bats, scorpions, and centipedes through morphological taxonomy.</p>
                         </div>
                     </div>
                 </div>
