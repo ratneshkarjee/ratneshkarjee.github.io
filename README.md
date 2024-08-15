@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -31,10 +32,12 @@
         section {
             padding: 60px 0;
             background: #ffffff; /* Set background color for all sections */
+            display: none;
         }
 
         /* Home Section */
         #home {
+            display: block; /* Show home section by default */
             min-height: 100vh;
             display: flex;
             align-items: center;
@@ -60,8 +63,8 @@
             height: auto;
         }
 
-        /* Skill & Expertise Section */
-        #skills {
+        /* Research Interest Section */
+        #research {
             /* background color is already set to white */
         }
 
@@ -126,12 +129,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#skills">Skill & Expertise</a></li>
-                <li class="nav-item"><a class="nav-link" href="#publications">Publication</a></li>
-                <li class="nav-item"><a class="nav-link" href="#collaborators">Collaborators</a></li>
-                <li class="nav-item"><a class="nav-link" href="#blogs">Stories & Blogs</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" onclick="showSection('home')">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" onclick="showSection('about')">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" onclick="showSection('research')">Research Interest</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" onclick="showSection('publications')">Publications</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" onclick="showSection('collaborators')">Collaborators</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" onclick="showSection('blogs')">Stories & Blogs</a></li>
             </ul>
         </div>
     </nav>
@@ -144,8 +147,8 @@
                     <img src="images/profile-rmbg.png" alt="Profile Picture" class="profile-img">
                 </div>
                 <div class="col-md-6">
-                    <h1 class="display-4">Hello, Welcome to Ratnesh's Profile</h1>
-                    <p class="text-justify">Curiosity to explore and discover new knowledge and learn new things should form the base for any researcher. Growing up in a village in West Bengal, I was intrigued when I first encountered subjects such as animal behaviour in my bachelor’s degree coursework. These courses helped me better understand the animals I had seen back home, including the human-elephant conflicts in my region. I believe this was the start of my journey in wildlife conservation.</p>
+                    <h1 class="display-4">Hello, Welcome to Ratnesh's World</h1>
+                    <p class="text-justify">Curiosity to explore and discover new knowledge and learn new things should form the base for any researcher. Growing up in a village in West Bengal, I was intrigued when I first encountered subjects such as animal behaviour in my bachelor’s degree coursework. These courses helped me better understand the animals I had seen back home, including the human-elephant conflicts in my region. I believe this was the start of my journey in wildlife conservation. Also, kindly keep in touch for collaboration after exploring my scientific porfolio.</p>
                 </div>
             </div>
         </div>
@@ -169,7 +172,7 @@
 
     <!-- Skill & Expertise Section -->
     <section id="skills">
-        <h2 class="display-4 text-center">Skill & Expertise</h2>
+        <h2 class="display-4 text-center">Skills & Expertise</h2>
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
@@ -201,7 +204,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="card">
-                        <img src="images/env-change.jpg" class="card-img-top" alt="Environmental Change Impacts">
+                        <img src="images/env-change.jpg" class="card-img-top" alt="Climate Change Impacts">
                         <div class="card-body">
                             <h5 class="card-title">Climate Change Impacts</h5>
                             <p class="card-text">Description of Climate Change Impacts and related skills.</p>
@@ -209,50 +212,8 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
 
     <!-- Publication Section -->
-    <section id="publications">
-        <h2 class="display-4 text-center">Publications</h2>
-        <div class="container">
-            <div class="publication-container">
-                <img src="images/publications.jpg" alt="Publications" class="img-fluid">
-                <div class="publication-list">
-                    <ul>
-                        <li><strong>Ghosh, D., Karjee, R., and Subramanian, K. A. 2024.</strong> Notes on the Cleptoparasitic Bees from Tawang District in Arunachal Pradesh, India with Special Reference to Family Apidae of Order Hymenoptera. Records of Zoological Survey of India. 124 (iS), 501-512. doi:10.26515/rzsi/v124/i1S/2024/172758</li>
-                        <li><strong>Ghosh, D., Chatterjee, P., Karjee, R., and Subramanian, K.A. 2023.</strong> Flower visitor assemblage and foraging profile of a pollinator attractant non-crop plant Isodon coetsa (Buch.-Ham. ex D.Don) Kudô from eastern Himalayas, India. Proceedings of Zoological Society. <a href="https://doi.org/10.1007/s12595-023-00498-x" target="_blank">https://doi.org/10.1007/s12595-023-00498-x</a> [online]</li>
-                        <li><strong>Karjee, R., Palei, H. S., Konwar, A., Gogoi, A., & Mishra, R. K. 2022.</strong> Bird assemblages in a peri-urban landscape in eastern India. Birds. 3(4), 383-401 <a href="https://doi.org/10.3390/birds3040026" target="_blank">https://doi.org/10.3390/birds3040026</a> [online]</li>
-                        <li><strong>Patra, A., Ahmed, T.M., Karjee, R., and Bhandari, S. 2019.</strong> Sighting of madras tree shrew Anathana ellioti (Waterhouse, 1850) with first photographic evidence at Ajodhya range, district Purulia, West Bengal, India. International Journal of Fauna and Biological Studies. 6(1):41-42 <a href="https://www.researchgate.net/publication/340810168_Sighting_of_madras_tree_shrew_Anathana_ellioti_Waterhouse_1850_with_first_photographic_evidence_at_Ajodhya_range_district_Purulia_West_Bengal_India" target="_blank">[online]<a/></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Collaborators Section -->
-    <section id="collaborators">
-        <h2 class="display-4 text-center">Collaborators</h2>
-        <div class="container">
-            <!-- Add content for collaborators here -->
-        </div>
-    </section>
-
-    <!-- Stories & Blogs Section -->
-    <section id="blogs">
-        <h2 class="display-4 text-center">Stories & Blogs</h2>
-        <div class="container">
-            <!-- Add content for stories and blogs here -->
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="text-center">
-        <p>Contact me via <a href="mailto:ratneshkarjee@yahoo.com">Email</a>, <a href="https://scholar.google.com/citations?user=HtWRd9gAAAAJ&hl=en" target="_blank">Google Scholar</a>, <a href="https://www.researchgate.net/profile/Ratnesh_Karjee" target="_blank">ResearchGate</a>, and <a href="https://github.com/ratneshkarjee" target="_blank">GitHub</a>.</p>
-        <a href="images/cv_ratnesh_template.pdf" class="btn btn-primary" download>Download CV</a>
-    </footer>
-
-    <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
+    <section id="publications
