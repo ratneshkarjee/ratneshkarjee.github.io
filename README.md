@@ -62,8 +62,8 @@
                     <img src="images/profile_picture.jpg" class="profile-picture" alt="Profile Picture">
                 </div>
                 <div class="col-md-6 text-left">
-                    <h1>Welcome to My Portfolio</h1>
-                    <p>Hi, I'm Ratnesh Karjee, a Wildlife Biologist and Ph.D. candidate at <a href="https://www.ashoka.edu.in" target="_blank">Ashoka University</a>. Welcome to my portfolio where you can explore my research, skills, and publications.</p>
+                    <h1>Welcome to My Scientific Portfolio</h1>
+                    <p>Hi, Welcome to my portfolio where you can explore my research, skills, and publications. My curiosity to explore and discover new skills and gained knowledges for any research. I believe that tHis is the foundation of excellent researcher. Growing up in a village of Purulia District in West Bengal, I was intrigued when I first encountered subjects such as animal behaviour in my Bachelor’s degree coursework. These courses helped me better understand the animals I had seen during my childhood, including the rolling eggs of hens, defensive behaviour of chickens and human-elephant conflicts in my region. I believe this was the start of my journey in wildlife studies. If my research interests and skills resonate with you, I would be delighted to explore potential collaboration opportunities in the future. Please feel free to reach out if you're interested in working together!</p>
                 </div>
             </div>
         </div>
