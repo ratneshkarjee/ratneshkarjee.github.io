@@ -179,7 +179,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="card">
-                        <img src="images/landscape.jpeg" class="card-img-top" alt="Landscape Ecology">
+                        <img src="images/landscape.png" class="card-img-top" alt="Landscape Ecology">
                         <div class="card-body">
                             <h5 class="card-title">Landscape Ecology</h5>
                             <p class="card-text">Description of Landscape Ecology and related skills.</p>
