@@ -3,198 +3,169 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ratnesh Karjee's Portfolio</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
         }
-        header {
+        .header {
             background: linear-gradient(to right, #0000ff, #000000);
             color: white;
-            padding: 15px;
             text-align: center;
-            font-size: 24px;
-            font-weight: bold;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
-            position: relative;
-            z-index: 1;
+            padding: 20px 0;
         }
-        .header-img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            opacity: 0.2;
-            z-index: -1;
+        .header h1 {
+            margin: 0;
         }
-        .container {
-            padding: 20px;
+        .nav-links {
+            margin: 10px 0;
         }
-        .section {
-            margin-bottom: 40px;
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
         }
-        .profile-img {
-            float: left;
-            margin-right: 20px;
-            border-radius: 5px;
-            width: 150px;
-            height: auto;
+        .home-section, .about-section, .skills-section {
+            padding: 50px 20px;
         }
-        .rect-img {
-            width: 100%;
-            height: auto;
-            border-radius: 15px;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+        .home-section {
+            background-color: #f5f5f5;
         }
-        .text-justify {
-            text-align: justify;
-        }
-        .section-title {
-            font-size: 28px;
-            font-weight: bold;
+        .home-section h1 {
+            font-size: 36px;
             color: #333;
         }
-        .section-content {
+        .home-img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #333;
+            margin: 0 auto 20px;
+            display: block;
+            object-fit: cover;
+        }
+        .about-section h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .about-text {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: justify;
+            line-height: 1.6;
             font-size: 18px;
             color: #555;
         }
-        .skill-card {
-            margin: 10px;
-            padding: 15px;
-            border: 1px solid #ddd;
-            border-radius: 10px;
-            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+        .skills-section h2 {
+            margin-bottom: 30px;
+            color: #333;
         }
-        .skills-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
         }
-        .skills-container .skill-card {
-            width: 22%;
-            margin: 10px;
+        .card {
+            margin-bottom: 20px;
         }
-        .social-icons img {
-            width: 30px;
-            height: 30px;
-            margin: 0 10px;
+        @media (min-width: 768px) {
+            .card-deck .card {
+                margin-bottom: 0;
+            }
         }
-        .collaborator-img {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            margin-right: 10px;
-        }
-        .collaborator-item {
-            display: flex;
-            align-items: center;
-            margin-bottom: 10px;
-        }
-        .collaborator-item a {
-            color: #000;
-            text-decoration: none;
-        }
-        .collaborator-item a:hover {
-            text-decoration: underline;
+        @media (max-width: 768px) {
+            .about-text {
+                font-size: 16px;
+                padding: 0 10px;
+            }
         }
     </style>
 </head>
 <body>
-    <header>
-        <img src="images/header_background.gif" alt="Header Background" class="header-img">
-        Ratnesh Karjee's Portfolio
+    <header class="header">
+        <h1>Ratnesh Karjee's Portfolio</h1>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills & Expertise</a>
+        </div>
     </header>
 
-    <div class="container">
-        <!-- Home Section -->
-        <section id="home" class="section">
-            <h2 class="section-title">Home</h2>
+    <section id="home" class="home-section">
+        <h1 class="text-center">Welcome to My Portfolio</h1>
+        <img src="images/home-image.jpg" alt="Home Image" class="home-img">
+        <div class="text-center">
             <img src="images/profile.jpg" alt="Profile Picture" class="profile-img">
-            <div class="section-content">
-                <h3>Hello, Welcome to Ratnesh's Profile!</h3>
-                <p class="text-justify">Curiosity to explore and discover new knowledge and learn new things should form the base for any researcher. Growing up in a village in West Bengal, I was intrigued when I first encountered subjects such as animal behaviour in my bachelor’s degree coursework. These courses helped me better understand the animals I had seen back home, including the human-elephant conflicts in my region. I believe this was the start of my journey in wildlife conservation.</p>
-                <div class="social-icons">
-                    <a href="mailto:your.ratneshkarjee@yahoo.com"><img src="icons/emaillogo.jpg" alt="Email"></a>
-                    <a href="https://www.researchgate.net/"><img src="icons/RG.png" alt="ResearchGate"></a>
-                    <a href="https://scholar.google.com/"><img src="icons/google-scholar.jpg" alt="Google Scholar"></a>
-                    <a href="https://github.com/"><img src="icons/githublogo.png" alt="GitHub"></a>
-                </div>
-                <img src="images/rectangular_image.jpg" alt="Rectangular Image" class="rect-img">
-            </div>
-        </section>
+            <p><strong>Hello, Welcome to Ratnesh's profiles</strong></p>
+            <p style="text-align: justify;">Curiosity to explore and discover new knowledge and learn new things should form the base for any researcher. Growing up in a village in West Bengal, I was intrigued when I first encountered subjects such as animal behaviour in my bachelor’s degree coursework. These courses helped me better understand the animals I had seen back home, including the human-elephant conflicts in my region. I believe this was the start of my journey in wildlife conservation.</p>
+        </div>
+    </section>
 
-        <!-- About Me Section -->
-        <section id="about-me" class="section">
-            <h2 class="section-title">About Me</h2>
-            <img src="images/about.gif" alt="My Picture" class="profile-img">
-            <div class="section-content">
-                <h3>Hello! I'm <strong>Ratnesh Karjee</strong></h3>
-                <p>I am a Wildlife Biologist and currently pursuing Ph.D. from <a href="https://www.ashoka.edu.in/" target="_blank">Ashoka University</a>. Before joining Ashoka's PhD program, I completed my master’s degree in Wildlife & Biodiversity Conservation at North Orissa University. In 2019, I was hired as a research biologist by the Zoological Survey of India. In addition, I have several years of multidisciplinary research experience in various Indian landscapes, as well as competence in Taxonomy, Geospatial data processing, Biodiversity Impact Assessment, and Biodiversity Monitoring. Aside from that, I am passionate about human-animal conflict, landscape ecology, and the effects of climate change on wildlife. I was working at Ashoka University as a Junior Research Fellow on the project “Whole genome sequencing and comparative genomics to study the evolution, genetic diversity, and immunology of bats from the Indian subcontinent. My research interest lies in an integrated approach of modern tools like genomic and GIS to answer various ecological questions. Apart from the academic and research pursuits, I love to play football, volleyball, cricket, etc. Also, I find pleasure in photography, hiking, drawing, and painting.</p>
-            </div>
-        </section>
+    <section id="about" class="about-section">
+        <h1 class="text-center">About</h1>
+        <img src="images/about.gif" alt="Profile Picture" class="profile-img">
+        <div class="about-text">
+            <p>Hello! I'm Ratnesh Karjee. I am a Wildlife Biologist and currently pursuing a Ph.D. from <a href="https://www.ashoka.edu.in/" target="_blank">Ashoka University</a>. Before joining Ashoka's PhD program, I completed my master’s degree in Wildlife & Biodiversity Conservation at North Orissa University. In 2019, I was hired as a research biologist by the Zoological Survey of India. In addition, I have several years of multidisciplinary research experience in various Indian landscapes, as well as competence in Taxonomy, Geospatial data processing, Biodiversity Impact Assessment, and Biodiversity Monitoring.</p>
+            <p>Apart from that, I am passionate about human-animal conflict, landscape ecology, and the effects of climate change on wildlife. I was working at Ashoka University as a Junior Research Fellow on the project “Whole genome sequencing and comparative genomics to study the evolution, genetic diversity, and immunology of bats from the Indian subcontinent.” My research interest lies in an integrated approach of modern tools like genomic and GIS to answer various ecological questions. Apart from academic and research pursuits, I love to play football, volleyball, cricket, etc. Also, I find pleasure in photography, hiking, drawing, and painting.</p>
+        </div>
+    </section>
 
-        <!-- Skills & Expertise Section -->
-        <section id="skills" class="section">
-            <h2 class="section-title">Skills & Expertise</h2>
-            <div class="skills-container">
-                <div class="skill-card">
-                    <h3>Conservation Genomics</h3>
-                    <p>Expertise in analyzing genetic data to understand conservation challenges.</p>
+    <section id="skills" class="skills-section">
+        <h2 class="text-center">Skills & Expertise</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="images/1.jpg" class="card-img-top" alt="Skill 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Conservtion Genomics</h5>
+                            <p class="card-text">Expertise in analyzing genetic data to understand conservation challenges.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="skill-card">
-                    <h3>Landscape Ecology</h3>
-                    <p>Study of landscapes and their ecological processes and interactions.</p>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="images/2.jpg" class="card-img-top" alt="Skill 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Landscape Ecology</h5>
+                            <p class="card-text">Study of landscapes and their ecological processes and interactions.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="skill-card">
-                    <h3>Human-Wildlife Interaction</h3>
-                    <p>Research on interactions between humans and wildlife to mitigate conflicts.</p>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="images/3.jpg" class="card-img-top" alt="Skill 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Human-Wildlife Interaction</h5>
+                            <p class="card-text">Research on interactions between humans and wildlife to mitigate conflicts.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="skill-card">
-                    <h3>Biodiversity Conservation & Management</h3>
-                    <p>Strategies and practices for preserving biodiversity and managing ecosystems.</p>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="images/4.jpg" class="card-img-top" alt="Skill 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Biodiversity Conservation & Management</h5>
+                            <p class="card-text">Strategies and practices for preserving biodiversity and managing ecosystems.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Collaborators Section -->
-        <section id="collaborators" class="section">
-            <h2 class="section-title">Collaborators</h2>
-            <div class="section-content">
-                <div class="collaborator-item">
-                    <img src="images/collaborator1.jpg" alt="Collaborator 1" class="collaborator-img">
-                    <a href="http://collaborator1.com" target="_blank">Collaborator 1</a>
-                </div>
-                <div class="collaborator-item">
-                    <img src="images/collaborator2.jpg" alt="Collaborator 2" class="collaborator-img">
-                    <a href="http://collaborator2.com" target="_blank">Collaborator 2</a>
-                </div>
-                <!-- Add more collaborators as needed -->
-            </div>
-        </section>
-
-        <!-- Publications Section -->
-        <section id="publications" class="section">
-            <h2 class="section-title">Publications</h2>
-            <div class="section-content">
-                <ul>
-                    <li><strong>2024:</strong> Publication Title</li>
-                    <li><strong>2023:</strong> Publication Title</li>
-                    <li><strong>2022:</strong> Publication Title</li>
-                    <!-- Add more publications as needed -->
-                </ul>
-            </div>
-        </section>
-
-        <!-- Stories & Blogs Section -->
-        <section id="stories-blogs" class="section">
-            <h2 class="section-title">Stories & Blogs</h2>
-            <div class="section-content">
-                <ul>
-                    <li><strong>2024:</strong> Blog Title</li>
-                    <li><strong>2023:</strong> Blog Title</li>
-                    <li><strong>2022:</strong> Blog Title</li>
-                    <!-- Add more stories and blogs as needed -->
-               
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
