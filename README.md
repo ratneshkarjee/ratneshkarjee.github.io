@@ -117,10 +117,10 @@
                 <h3>Hello, Welcome to Ratnesh's Profile!</h3>
                 <p class="text-justify">Curiosity to explore and discover new knowledge and learn new things should form the base for any researcher. Growing up in a village in West Bengal, I was intrigued when I first encountered subjects such as animal behaviour in my bachelor’s degree coursework. These courses helped me better understand the animals I had seen back home, including the human-elephant conflicts in my region. I believe this was the start of my journey in wildlife conservation.</p>
                 <div class="social-icons">
-                    <a href="mailto:your.email@example.com"><img src="icons/email.png" alt="Email"></a>
-                    <a href="https://www.researchgate.net/"><img src="icons/researchgate.png" alt="ResearchGate"></a>
-                    <a href="https://scholar.google.com/"><img src="icons/google-scholar.png" alt="Google Scholar"></a>
-                    <a href="https://github.com/"><img src="icons/github.png" alt="GitHub"></a>
+                    <a href="mailto:your.ratneshkarjee@yahoo.com"><img src="icons/emaillogo.jpg" alt="Email"></a>
+                    <a href="https://www.researchgate.net/"><img src="icons/RG.png" alt="ResearchGate"></a>
+                    <a href="https://scholar.google.com/"><img src="icons/google-scholar.jpg" alt="Google Scholar"></a>
+                    <a href="https://github.com/"><img src="icons/githublogo.png" alt="GitHub"></a>
                 </div>
                 <img src="images/rectangular_image.jpg" alt="Rectangular Image" class="rect-img">
             </div>
