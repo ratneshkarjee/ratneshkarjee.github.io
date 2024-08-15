@@ -107,7 +107,7 @@
                 </div>
                 <div class="col-md-6">
                     <h1>Welcome to My Portfolio</h1>
-                    <p>Discover more about my research, skills, and experience.</p>
+                    <p>Curiosity to explore and discover new knowledge and learn new things should form the base for any researcher. Growing up in a village in West Bengal, I was intrigued when I first encountered subjects such as animal behaviour in my Bachelor’s degree coursework. These courses helped me better understand the animals I had seen back home, including the human-elephant conflicts in my region. I believe this was the start of my journey in wildlife conservation. Also, please feel free to get in touch for future collaboration after exploring my scientific portfolio.Feel free to keep in touch for furtiure collaboration after discovering my research, skills, and experience.</p>
                 </div>
             </div>
         </div>
