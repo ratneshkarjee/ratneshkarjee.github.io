@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website</title>
+    </ul>
+        </div>
+    </nav>
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
@@ -101,26 +103,13 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="images/home.jpg" class="img-fluid" alt="Home Image">
+                    <img src="images/profile-rmbg.png" class="img-fluid" alt="Home Image">
                 </div>
                 <div class="col-md-6">
                     <h1>Welcome to My Portfolio</h1>
                     <p>Discover more about my research, skills, and experience.</p>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Selected Publications Section -->
-    <section id="publications" class="section bg-light">
-        <div class="container">
-            <h2 class="section-heading text-center">Selected Publications</h2>
-            <ul>
-                <li><strong>Ghosh, D.</strong>, <strong>Karjee, R.</strong>, and <strong>Subramanian, K. A.</strong> 2024. Notes on the Cleptoparasitic Bees from Tawang District in Arunachal Pradesh, India with Special Reference to Family Apidae of Order Hymenoptera. Records of Zoological Survey of India. 124 (iS), 501-512. doi:10.26515/rzsi/v124/i1S/2024/172758</li>
-                <li><strong>Ghosh, D.</strong>, <strong>Chatterjee, P.</strong>, <strong>Karjee, R.</strong>, and <strong>Subramanian, K.A.</strong> 2023. Flower visitor assemblage and foraging profile of a pollinator attractant non-crop plant Isodon coetsa (Buch.-Ham. ex D.Don) Kudô from eastern Himalayas, India. Proceedings of Zoological Society. <a href="https://doi.org/10.1007/s12595-023-00498-x" target="_blank">https://doi.org/10.1007/s12595-023-00498-x</a></li>
-                <li><strong>Karjee, R.</strong>, <strong>Palei, H. S.</strong>, <strong>Konwar, A.</strong>, <strong>Gogoi, A.</strong>, & <strong>Mishra, R. K.</strong> 2022. Bird assemblages in a peri-urban landscape in eastern India. Birds. 3(4), 383-401 <a href="https://doi.org/10.3390/birds3040026" target="_blank">https://doi.org/10.3390/birds3040026</a></li>
-                <li><strong>Patra, A.</strong>, <strong>Ahmed, T.M.</strong>, <strong>Karjee, R.</strong>, and <strong>Bhandari, S.</strong> 2019. Sighting of madras tree shrew Anathana ellioti (Waterhouse, 1850) with first photographic evidence at Ajodhya range, district Purulia, West Bengal, India. International Journal of Fauna and Biological Studies. 6(1):41-42</li>
-            </ul>
         </div>
     </section>
 
@@ -152,3 +141,38 @@
                             <p class="card-text">Understanding the genetic diversity and evolution of species for better conservation strategies.</p>
                         </div>
                     </div>
+                </div>
+                <!-- Add more cards for other research interests here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills & Expertise Section -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2 class="section-heading text-center">Skills & Expertise</h2>
+            <div class="row">
+                <!-- Skill 1 -->
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="images/icons/congenomics.png" alt="Conservation Genomics">
+                            <h5 class="card-title">Conservation Genomics</h5>
+                            <p class="card-text">Expertise in genomics applied to conservation efforts, including DNA sequencing and analysis.</p>
+                            <a href="#" class="btn btn-primary">Link to course or bootcamp</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more skill cards here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Selected Publications Section -->
+    <section id="publications" class="section">
+        <div class="container">
+            <h2 class="section-heading text-center">Selected Publications</h2>
+            <ul>
+                <li><strong>Ghosh, D.</strong>, <strong>Karjee, R.</strong>, and <strong>Subramanian, K. A.</strong> 2024. Notes on the Cleptoparasitic Bees from Tawang District in Arunachal Pradesh, India with Special Reference to Family Apidae of Order Hymenoptera. Records of Zoological Survey of India. 124 (iS), 501-512. doi:10.26515/rzsi/v124/i1S/2024/172758</li>
+                <li><strong>Ghosh, D.</strong>, <strong>Chatterjee, P.</strong>, <strong>Karjee, R.</strong>, and <strong>Subramanian, K.A.</strong> 2023. Flower visitor assemblage and foraging profile of a pollinator attractant non-crop plant Isodon coetsa (Buch.-Ham. ex D.Don) Kudô from eastern Himalayas, India. Proceedings of Zoological Society. <a href="https://doi.org/10.1007/s12595-023-00498-x" target="_blank">https://doi.org/10.1007/s12595-023-00498-x</a></li>
+                <li><strong>Karjee, R.</strong>, <strong>Palei, H. S.</strong
