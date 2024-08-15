@@ -60,7 +60,7 @@
                     <img src="images/profile-rmbg.png" class="profile-picture" alt="Profile Picture">
                 </div>
                 <div class="col-md-6 text-left">
-                    <h1>Welcome to My Scientific Portfolio</h1>
+                    <h1>Welcome to My Scientific World</h1>
                     <p>Hi, Welcome to my portfolio where you can explore my research, skills, and publications. My curiosity to explore and discover new skills and gained knowledges for any research. I believe that this is the foundation of an excellent researcher. Growing up in a village of Purulia District in West Bengal, I was intrigued when I first encountered subjects such as animal behaviour in my Bachelor’s degree coursework. These courses helped me better understand the animals I had seen during my childhood, including the rolling eggs of hens, defensive behaviour of chickens, and human-elephant conflicts in my region. I believe this was the start of my journey in wildlife studies. If my research interests and skills resonate with you, I would be delighted to explore potential collaboration opportunities in the future. Please feel free to reach out if you're interested in working together!</p>
                 </div>
             </div>
@@ -76,7 +76,9 @@
                     <img src="images/about.gif" class="about-image" alt="About Me">
                 </div>
                 <div class="col-md-6 about-text">
-                    <p>I'm Ratnesh Karjee, a Wildlife Biologist currently pursuing a Ph.D. in Biology at <a href="https://www.ashoka.edu.in" target="_blank">Ashoka University</a>. I completed my master's degree in Wildlife & Biodiversity Conservation at North Orissa University and worked as a research biologist at the Zoological Survey of India. My multidisciplinary research experience spans various Indian landscapes, with expertise in Taxonomy, Geospatial data processing, Biodiversity Impact Assessment, and Biodiversity Monitoring. I am passionate about human-animal conflict, landscape ecology, and climate change impacts on wildlife. Currently, I'm also involved in a project on bat genomics at Ashoka University, integrating modern tools like genomics and GIS for ecological research.</p>
+                    <p>I'm Ratnesh Karjee, a Wildlife Biologist currently pursuing a Ph.D. in Biology at <a href="https://www.ashoka.edu.in" target="_blank">Ashoka University</a>. The theme of my doctoral research is based on understanding the influence of the Anthropocene and climate change on small mammals, particularly bats and rodents, across India’s key biodiversity hotspots—the Northeast (NEI) and the Western Ghats (WG). Both the regions are globally recognized for their rich biodiversity and unique ecological significance. The extend of WG starts from Kerak to Maharashtra while the landscape of NEI ranges from hilly mountain of Pataki and Easter Himalayas to flood plains of Brahmaputra.</p>
+
+                    I earned my master’s degree in wildlife & Biodiversity Conservation from <a href= "https://www.nou.nic.in/" target="_blank">North Orissa University</a> and have previously worked as a research biologist at the <a href= "https://zsi.gov.in/" target="_blank">Zoological Survey of India</a>. In addition, I have muldisciplinary research experience in various domain of biology like taxonomy, geospatial data processing, biodiversity impact assessment, and monitoring. My deep commitment to addressing human-animal conflicts, coupled with a passion for landscape ecology, fuels my research. I was also engaged in an innovative project on bat genomics at Ashoka University. Moreover, I am interested in integrating advanced genomics techniques and GIS tools to push the boundaries of ecological research and enhance our understanding for sustainable conservation practice</p>
                 </div>
             </div>
         </div>
