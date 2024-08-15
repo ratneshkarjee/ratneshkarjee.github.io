@@ -136,7 +136,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6">
-                    <img src="images/profile.jpg" alt="Profile Picture" class="profile-img">
+                    <img src="images/profile-rmbg.png" alt="Profile Picture" class="profile-img">
                 </div>
                 <div class="col-md-6">
                     <h1 class="display-4">Hello, Welcome to Ratnesh's Profile</h1>
