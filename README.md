@@ -141,13 +141,28 @@
     </section>
 
     <!-- About Me Page -->
-    <section id="about" class="section">
-        <div class="container text-center">
-            <h2>About Me</h2>
-            <img src="images/about.jpg" alt="Ratnesh Karjee" class="about-image">
-            <p>I am a PhD student at Ashoka University. My research focuses on wildlife and biodiversity conservation. With expertise in taxonomy, geospatial data processing, and more, I am committed to understanding and protecting wildlife.</p>
+   <section id="about" class="container text-center py-5">
+    <h2>About Me</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-4 mb-4">
+            <img src="images/about.jpg" alt="Ratnesh Karjee" class="img-fluid rounded-circle border border-primary">
         </div>
-    </section>
+        <div class="col-md-8">
+            <p>
+                I am Ratnesh Karjee, a Wildlife Biologist currently pursuing a Ph.D. in Biology at <a href="https://www.ashoka.edu.in/" target="_blank">Ashoka University</a>. 
+                Before joining Ashoka University, I completed my master’s degree in Wildlife & Biodiversity Conservation at North Orissa University, where my fascination with wildlife studies began. 
+                In 2019, I joined the Zoological Survey of India as a research biologist. My research spans various Indian landscapes, focusing on Taxonomy, Geospatial data processing, Biodiversity Impact Assessment, and Biodiversity Monitoring.
+            </p>
+            <p>
+                My passion extends to understanding human-animal conflicts, landscape ecology, and the impacts of climate change on wildlife. 
+                At Ashoka University, as a Junior Research Fellow, I am involved in a project on “Whole genome sequencing and comparative genomics to study the evolution, genetic diversity, and immunology of bats from the Indian subcontinent.”
+            </p>
+            <p>
+                I am particularly interested in using modern tools like genomics and GIS to address various ecological questions. Outside of my academic and research endeavors, I enjoy playing football, volleyball, and cricket, as well as photography, drawing, and painting.
+            </p>
+        </div>
+    </div>
+</section>
 
     <!-- Skills & Expertise Section -->
     <section id="skills" class="section">
