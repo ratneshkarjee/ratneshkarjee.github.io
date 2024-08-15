@@ -95,7 +95,7 @@
                         <img src="images/rs_gis_icon.png" class="card-img-top" alt="RS & GIS Icon">
                         <div class="card-body">
                             <h5 class="card-title">Remote Sensing & GIS</h5>
-                            <p class="card-text">Expertise in remote sensing and GIS for ecological and biodiversity studies.</p>
+                            <p class="card-text">I am proficient in geospatial modelling (including Species Distribution Modelling). Apart from this, I use to teach and provide technical assistance to graduate students, interns and professionals in RS and GIS. In addition, I can handle various software like QGIS, ArcGIS, GeoDa, Google Earth Engine and Diva-GIS.</p>
                             <a href="#" class="btn btn-primary">Link to course or bootcamp</a>
                         </div>
                     </div>
@@ -105,9 +105,8 @@
                     <div class="card">
                         <img src="images/molecular_biology_icon.png" class="card-img-top" alt="Molecular Biology Icon">
                         <div class="card-body">
-                            <h5 class="card-title">Molecular Biology</h5>
-                            <p class="card-text">Skills in molecular biology techniques and genomic data analysis.</p>
-                            <a href="#" class="btn btn-primary">Link to course or bootcamp</a>
+                            <h5 class="card-title">Molecular & Ecological Data Analysis</h5>
+                            <p class="card-text">I have a expertiese in analyzing ecological and genomic data using various software such as R, PopArt, DnaSP, and MEGA.</p>
                         </div>
                     </div>
                 </div>
@@ -117,24 +116,17 @@
                         <img src="images/field_experience_icon.png" class="card-img-top" alt="Field Experience Icon">
                         <div class="card-body">
                             <h5 class="card-title">Field Experience</h5>
-                            <p class="card-text">Extensive field experience in various Indian landscapes and biodiversity monitoring.</p>
-                            <a href="#" class="btn btn-primary">Link to course or bootcamp</a>
+                            <p class="card-text">I have five years of working experience in various landscapes of India like the Eastern & Western Himalayas, Western Ghats, Gangetic Flood Plain, Chotanagpur, etc. which helps me to gain systematic study design, conduct field surveys, data collection, and lead team members.In addition, my expertise in monitoring wildlife using non-invasive sampling methods like camera traps, fecal and sign surveys.</p>
                         </div>
                     </div>
                 </div>
                 <!-- Skill Card 4 -->
                 <div class="col-md-3">
                     <div class="card">
-                        <img src="images/human_wildlife_icon.png" class="card-img-top" alt="Human-Wildlife Conflict Icon">
+                        <img src="images/field_experience_icon.png" class="card-img-top" alt="Field Experience Icon">
                         <div class="card-body">
-                            <h5 class="card-title">Human-Wildlife Conflict</h5>
-                            <p class="card-text">Expertise in understanding and mitigating human-wildlife conflicts.</p>
-                            <a href="#" class="btn btn-primary">Link to course or bootcamp</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                            <h5 class="card-title">Biodiversity Monitoring & Impact Assessment</h5>
+                            <p class="card-text">I possess expertise in conducting systematic field studies to assess biodiversity (invertebrates and vertebrates). During my master’s course, I also prepared People Biodiversity Register (PBR) using both Traditional Ecological Knowledge (TEK) and scientific methods. Furthermore, I can identify bats, scorpions and centipedes through morphological taxonomy.</p>
     </section>
 
     <!-- Selected Publications Section -->
