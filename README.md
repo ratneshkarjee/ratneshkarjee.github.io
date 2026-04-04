@@ -138,6 +138,8 @@
         <div class="container">
             <h2 class="section-heading text-center">Selected Publications</h2>
             <ul class="list-unstyled">
+            <li>Dovih, P., <strong>Karjee, R.</strong>, Garg, K. M., & Chattopadhyay, B. 2026. Northeast India as the Next Frontier of EcoHealth and One Health Research. EcoHealth, 1-14. <a href="https://doi.org/10.1007/s10393-026-01782-w" target="_blank">[online]</a></li>
+            <li><strong>Karjee, R.</strong>, Palei, H. S., Konwar, A., Gogoi, A., & Mishra, R. K. 2022. Bird assemblages in a peri-urban landscape in eastern India. Birds, 3(4), 383-401. <a href="https://doi.org/10.3390/birds3040026" target="_blank">[online]</a></li>
                 <li>Ghosh, D., <strong>Karjee, R.</strong>, and Subramanian, K. A. 2024. Notes on the Cleptoparasitic Bees from Tawang District in Arunachal Pradesh, India with Special Reference to Family Apidae of Order Hymenoptera. Records of Zoological Survey of India. 124 (iS), 501-512. <a href="https://doi.org/10.26515/rzsi/v124/i1S/2024/172758" target="_blank">[online]</a></li>
             <li>Ghosh, D., Chatterjee, P., <strong>Karjee, R.</strong>, and Subramanian, K.A. 2023. Flower visitor assemblage and foraging profile of a pollinator attractant non-crop plant Isodon coetsa (Buch.-Ham. ex D.Don) Kudô from eastern Himalayas, India. Proceedings of Zoological Society. <a href="https://doi.org/10.1007/s12595-023-00498-x" target="_blank">[online]</a></li>
             <li><strong>Karjee, R.</strong>, Palei, H. S., Konwar, A., Gogoi, A., & Mishra, R. K. 2022. Bird assemblages in a peri-urban landscape in eastern India. Birds. 3(4), 383-401 <a href="https://doi.org/10.3390/birds3040026" target="_blank">[online]</a></li>
