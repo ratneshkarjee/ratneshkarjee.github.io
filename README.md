@@ -148,20 +148,27 @@
     </section>
 
     <!-- Contact Me Section -->
-    <section id="contact" class="section bg-light">
-        <div class="container text-center">
-            <h2 class="section-heading">Contact Me</h2>
-            <div class="row">
-                <div class="col-md-12">
-                    <a href="mailto:ratneshkarjee@yahoo.com" class="btn btn-primary">Email</a>
-                    <a href="https://scholar.google.com/citations?user=XXXXXX" class="btn btn-primary">Google Scholar</a>
-                    <a href="https://www.researchgate.net/profile/Ratnesh_Karjee" class="btn btn-primary">ResearchGate</a>
-                    <a href="https://github.com/ratneshkarjee" class="btn btn-primary">GitHub</a>
-                </div>
+<section id="contact" class="section bg-light">
+    <div class="container text-center">
+        <h2 class="section-heading">Contact Me</h2>
+        <div class="row">
+            <div class="col-md-12">
+                <a href="mailto:ratneshkarjee@yahoo.com" target="_blank">
+                    <img src="https://github.com/ratneshkarjee/ratneshkarjee.github.io/blob/main/images/emaillogo.jpg?raw=true" alt="Email" style="width: 60px; height: 60px; margin: 0 15px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+                </a>
+                <a href="https://scholar.google.com/citations?user=XXXXXX" target="_blank">
+                    <img src="https://github.com/ratneshkarjee/ratneshkarjee.github.io/blob/main/images/google-scholar.jpg?raw=true" alt="Google Scholar" style="width: 60px; height: 60px; margin: 0 15px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+                </a>
+                <a href="https://www.researchgate.net/profile/Ratnesh_Karjee" target="_blank">
+                    <img src="https://github.com/ratneshkarjee/ratneshkarjee.github.io/blob/main/images/RG.png?raw=true" alt="ResearchGate" style="width: 60px; height: 60px; margin: 0 15px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+                </a>
+                <a href="https://github.com/ratneshkarjee" target="_blank">
+                    <img src="https://github.com/ratneshkarjee/ratneshkarjee.github.io/blob/main/images/githublogo.png?raw=true" alt="GitHub" style="width: 60px; height: 60px; margin: 0 15px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+                </a>
             </div>
         </div>
-    </section>
-
+    </div>
+</section>
     <!-- Bootstrap JS and dependencies -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
