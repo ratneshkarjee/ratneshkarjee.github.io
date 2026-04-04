@@ -147,23 +147,46 @@
         </div>
     </section>
 
-    <!-- Contact Me Section -->
+<!-- Contact Me Section -->
 <section id="contact" class="section bg-light">
     <div class="container text-center">
         <h2 class="section-heading">Contact Me</h2>
         <div class="row">
             <div class="col-md-12">
+                <!-- Email -->
                 <a href="mailto:ratneshkarjee@yahoo.com" target="_blank">
-                    <img src="https://github.com/ratneshkarjee/ratneshkarjee.github.io/blob/main/images/emaillogo.jpg?raw=true" alt="Email" style="width: 60px; height: 60px; margin: 0 15px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+                    <img src="https://github.com/ratneshkarjee/ratneshkarjee.github.io/blob/main/images/email-logo.svg?raw=true" 
+                         alt="Email" 
+                         style="width: 60px; height: 60px; margin: 0 15px; transition: transform 0.3s;" 
+                         onmouseover="this.style.transform='scale(1.1)'" 
+                         onmouseout="this.style.transform='scale(1)'">
                 </a>
-                <a href="https://scholar.google.com/citations?user=XXXXXX" target="_blank">
-                    <img src="https://github.com/ratneshkarjee/ratneshkarjee.github.io/blob/main/images/google-scholar.jpg?raw=true" alt="Google Scholar" style="width: 60px; height: 60px; margin: 0 15px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+                
+                <!-- ORCID -->
+                <a href="https://orcid.org/0000-0001-6129-1153" target="_blank">
+                    <img src="https://github.com/ratneshkarjee/ratneshkarjee.github.io/blob/main/images/ORCID_iD.svg.png?raw=true" 
+                         alt="ORCID" 
+                         style="width: 60px; height: 60px; margin: 0 15px; transition: transform 0.3s;" 
+                         onmouseover="this.style.transform='scale(1.1)'" 
+                         onmouseout="this.style.transform='scale(1)'">
                 </a>
+                
+                <!-- ResearchGate -->
                 <a href="https://www.researchgate.net/profile/Ratnesh_Karjee" target="_blank">
-                    <img src="https://github.com/ratneshkarjee/ratneshkarjee.github.io/blob/main/images/RG.png?raw=true" alt="ResearchGate" style="width: 60px; height: 60px; margin: 0 15px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+                    <img src="https://github.com/ratneshkarjee/ratneshkarjee.github.io/blob/main/images/ResearchGate_icon_SVG.svg.png?raw=true" 
+                         alt="ResearchGate" 
+                         style="width: 60px; height: 60px; margin: 0 15px; transition: transform 0.3s;" 
+                         onmouseover="this.style.transform='scale(1.1)'" 
+                         onmouseout="this.style.transform='scale(1)'">
                 </a>
-                <a href="https://github.com/ratneshkarjee" target="_blank">
-                    <img src="https://github.com/ratneshkarjee/ratneshkarjee.github.io/blob/main/images/githublogo.png?raw=true" alt="GitHub" style="width: 60px; height: 60px; margin: 0 15px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+                
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/ratnesh-karjee-a037601b2/" target="_blank">
+                    <img src="https://github.com/ratneshkarjee/ratneshkarjee.github.io/blob/main/images/linkedin-svgrepo-com.svg?raw=true" 
+                         alt="LinkedIn" 
+                         style="width: 60px; height: 60px; margin: 0 15px; transition: transform 0.3s;" 
+                         onmouseover="this.style.transform='scale(1.1)'" 
+                         onmouseout="this.style.transform='scale(1)'">
                 </a>
             </div>
         </div>
